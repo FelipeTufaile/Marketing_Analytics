@@ -1,0 +1,1370 @@
+﻿aeroporto,tipo.de.voo,cia.aerea,possui.deficiencia,facilidade.de.desembarque.no.meio.fio,opcoes.de.transporte.ate.o.aeroporto,processo.de.aquisicao.da.passagem,processo.de.inspecao.de.seguranca,estabelecimentos.de.alimentacao,localizacao.e.deslocamento,conforto.da.sala.de.embarque,disponibilidade.de.tomadas,internet.disponibilizada.pelo.aeroporto,sanitarios,limpeza.geral.do.aeroporto,satisfacao.geral,nacionalidade,genero,idade,escolaridade,renda.familiar,viajando.sozinho,motivo.da.viagem,quantidade.de.viagens.nos.ultimos.12.meses,ja.embarcou.desembarcou.antes.no.aeroporto
+SBFZ,Domestico,GOL,Nenhuma,5,4,5,4,4,4,4,4,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Ensino fundamental,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,AZUL,Nenhuma,5,4,4,3,4,4,4,5,5,4,4,5,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 2 e 4 sm,Sim,Outros,6 a 10,Sim
+SBFZ,Domestico,GOL,Nenhuma,4,4,5,4,5,4,4,5,3,5,5,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,GOL,Nenhuma,4,4,4,4,4,4,4,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBMO,Domestico,GOL,Nenhuma,5,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,LATAM,Nenhuma,4,4,5,4,5,3,4,5,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBVT,Domestico,LATAM,Nenhuma,5,3,4,4,3,5,5,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,AZUL,Nenhuma,4,5,5,5,4,5,4,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSP,Domestico,GOL,Nenhuma,4,3,4,3,2,3,2,2,3,3,3,3,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Outros,2 a 3,Sim
+SBVT,Domestico,AZUL,Nenhuma,5,3,4,4,4,3,2,3,3,2,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,AZUL,Nenhuma,5,1,5,5,4,4,4,3,4,3,4,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,AZUL,Nenhuma,5,3,5,4,3,5,4,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,LATAM,Nenhuma,4,4,5,4,3,4,4,3,4,2,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Sim
+SBPA,Domestico,AZUL,Nenhuma,4,5,5,5,5,4,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBGL,Internacional,TAP,Nenhuma,4,5,5,5,5,4,4,3,5,4,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBCY,Domestico,LATAM,Nenhuma,5,4,5,5,4,4,4,3,2,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBRJ,Domestico,LATAM,Nenhuma,4,4,4,2,5,4,4,2,5,4,4,4,Brasileira,Masculino,36 a 45 anos,Doutorado,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBSV,Domestico,LATAM,Nenhuma,2,4,5,5,5,5,3,5,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,LATAM,Nenhuma,4,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Sim,Outros,2 a 3,Sim
+SBMO,Domestico,LATAM,Nenhuma,4,5,5,5,2,5,5,5,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBSV,Domestico,LATAM,Nenhuma,5,5,5,5,5,5,5,5,5,3,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBVT,Domestico,LATAM,Nenhuma,4,4,5,5,4,5,5,2,4,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,AIR FRANCE,Nenhuma,4,5,1,5,4,5,4,1,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Doutorado,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,AIR FRANCE,Nenhuma,4,5,5,5,1,5,2,1,1,3,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,GOL,Nenhuma,5,5,5,5,4,5,4,4,5,4,4,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,Mais de 11,Sim
+SBGO,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,3,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,6 a 10,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,4,5,4,3,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBCT,Domestico,LATAM,Nenhuma,5,5,5,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,GOL,Nenhuma,4,3,4,4,2,4,3,1,1,2,4,3,Brasileira,Feminino,46 a 55 anos,Mestrado,Prefiro nao informar,Sim,Lazer,Mais de 11,Nao
+SBMO,Domestico,AZUL,Nenhuma,5,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,GOL,Nenhuma,4,5,5,5,4,5,4,4,3,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,LATAM,Nenhuma,4,4,4,5,4,4,4,5,5,4,4,4,Estrangeira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Sim
+SBFZ,Domestico,AZUL,Nenhuma,5,5,5,5,3,5,5,5,5,4,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Sim
+SBGL,Domestico,LATAM,Nenhuma,4,3,2,3,3,2,2,2,4,3,3,4,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBGL,Domestico,LATAM,Nenhuma,4,3,4,4,5,3,3,3,4,4,5,3,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBGO,Domestico,AZUL,Nenhuma,5,4,5,5,4,5,5,5,4,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBPA,Domestico,AZUL,Nenhuma,5,5,5,4,3,5,5,3,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,AZUL,Nenhuma,5,5,5,4,4,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Ate 1 sm,Sim,Lazer,2 a 3,Sim
+SBGL,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,GOL,Nenhuma,4,5,2,5,4,5,5,4,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Sim
+SBMO,Domestico,GOL,Nenhuma,4,5,5,5,5,5,1,1,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBPA,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,3,4,4,3,5,5,Brasileira,Masculino,26 a 35 anos,Mestrado,Mais de 20 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBRJ,Domestico,AZUL,Nenhuma,4,4,5,5,5,5,3,2,2,4,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Outros,2 a 3,Sim
+SBEG,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,AZUL,Nenhuma,4,3,5,5,4,5,3,5,2,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBGL,Internacional,AIR FRANCE,Nenhuma,4,2,4,3,3,5,4,3,4,4,4,4,Brasileira,Feminino,36 a 45 anos,Mestrado,Mais de 20 sm,Nao,Lazer,2 a 3,Nao
+SBGR,Domestico,LATAM,Nenhuma,4,5,5,5,5,5,3,3,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,AZUL,Nenhuma,4,1,3,5,2,4,4,3,5,4,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBBR,Internacional,TAP,Nenhuma,5,5,4,5,5,5,5,5,5,5,5,5,Estrangeira,Feminino,56 a 65 anos,Ensino fundamental,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBFL,Domestico,AZUL,Nenhuma,5,4,4,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Ate 1 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,4,5,4,5,5,4,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,TAP,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,AZUL,Nenhuma,4,5,2,5,5,5,5,5,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBMO,Domestico,LATAM,Nenhuma,5,1,5,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBCT,Domestico,GOL,Nenhuma,5,5,2,5,4,5,5,5,3,4,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,2 a 3,Sim
+SBEG,Domestico,AZUL,Nenhuma,4,4,5,5,3,4,4,4,5,4,3,3,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBGL,Domestico,AZUL,Nenhuma,4,4,5,5,5,4,2,3,5,5,4,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Nao
+SBSV,Domestico,AZUL,Nenhuma,5,5,5,5,4,4,4,5,4,4,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBRJ,Domestico,AZUL,Nenhuma,5,4,5,1,5,5,5,4,4,5,5,5,Brasileira,Feminino,56 a 65 anos,Mestrado,Mais de 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,AZUL,Nenhuma,4,5,5,5,2,5,3,5,5,5,5,3,Brasileira,Feminino,36 a 45 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,6 a 10,Nao
+SBBE,Domestico,LATAM,Nenhuma,5,4,5,5,4,4,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBBR,Domestico,LATAM,Nenhuma,4,4,4,2,4,4,1,1,1,3,4,3,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBEG,Domestico,GOL,Nenhuma,5,3,5,5,2,5,5,5,3,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,LATAM,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,2 a 3,Sim
+SBSV,Domestico,AZUL,Nenhuma,4,4,5,5,4,5,4,3,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,GOL,Nenhuma,4,4,4,4,4,4,3,2,5,3,4,3,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,6 a 10,Nao
+SBVT,Domestico,LATAM,Nenhuma,5,4,5,4,5,4,4,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBVT,Domestico,AZUL,Nenhuma,5,5,5,3,5,5,3,1,3,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Trabalho,4 a 5,Sim
+SBFL,Domestico,AZUL,Nenhuma,5,5,5,5,5,4,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBMO,Domestico,LATAM,Nenhuma,4,4,4,4,3,4,3,2,4,4,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,4 a 5,Nao
+SBSG,Domestico,LATAM,Nenhuma,4,4,4,4,4,4,4,4,1,3,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSP,Domestico,GOL,Nenhuma,5,5,4,5,5,4,3,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,GOL,Nenhuma,4,5,5,5,5,5,5,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,AZUL,Nenhuma,4,5,5,4,5,5,2,5,4,5,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Lazer,Mais de 11,Sim
+SBCY,Domestico,GOL,Nenhuma,4,4,5,5,5,4,4,5,4,3,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,LATAM,Nenhuma,5,5,5,5,5,5,5,4,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Trabalho,4 a 5,Sim
+SBGL,Domestico,GOL,Nenhuma,4,5,4,5,4,5,5,4,4,5,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBGL,Internacional,TAP,Nenhuma,4,4,5,5,4,4,3,1,3,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBCF,Internacional,TAP,Nenhuma,4,4,5,4,5,5,5,3,4,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBVT,Domestico,GOL,Nenhuma,3,3,4,5,4,4,3,2,3,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Sim
+SBVT,Domestico,GOL,Nenhuma,3,3,5,5,5,5,1,3,2,4,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBFZ,Domestico,GOL,Nenhuma,5,5,3,5,5,4,5,4,4,4,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBGL,Internacional,AIR FRANCE,Nenhuma,4,4,5,5,5,4,4,4,5,4,4,5,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Lazer e Trabalho,1 (Primeira viagem),Nao
+SBKP,Domestico,AZUL,Nenhuma,4,4,5,5,4,4,5,4,4,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBCY,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,4 a 5,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,5,4,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,LATAM,Nenhuma,5,5,3,5,5,5,5,5,5,1,4,4,Brasileira,Feminino,56 a 65 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBFL,Domestico,AZUL,Nenhuma,4,4,5,4,5,5,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,5,4,5,5,5,5,Estrangeira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBCY,Domestico,AZUL,Nenhuma,5,5,5,5,5,4,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBGO,Domestico,LATAM,Nenhuma,5,5,5,4,4,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Nao
+SBGR,Internacional,LUFTHANSA,Nenhuma,3,3,5,5,2,3,3,3,3,1,1,1,Estrangeira,Masculino,36 a 45 anos,Mestrado,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,AZUL,Nenhuma,4,4,5,5,5,5,4,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,GOL,Nenhuma,5,5,4,4,3,4,4,4,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBRF,Domestico,GOL,Nenhuma,1,1,4,5,4,4,4,3,4,3,3,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBRF,Domestico,GOL,Nenhuma,4,4,5,4,4,5,4,3,5,3,3,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBPA,Domestico,LATAM,Nenhuma,4,4,5,5,3,5,4,3,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,AZUL,Nenhuma,4,4,4,3,2,4,2,1,4,4,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBCY,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,4,4,2,2,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBGR,Domestico,GOL,Nenhuma,5,5,4,5,4,3,3,1,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Trabalho,1 (Primeira viagem),Sim
+SBSG,Domestico,LATAM,Nenhuma,4,4,5,5,5,5,5,1,5,3,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Nao,Trabalho,2 a 3,Nao
+SBPA,Domestico,AZUL,Nenhuma,4,4,5,5,2,5,5,5,5,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,GOL,Nenhuma,5,5,5,5,4,4,5,3,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,2 a 3,Sim
+SBCF,Domestico,AZUL,Nenhuma,5,5,5,5,3,4,3,4,3,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,3,2,5,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBSP,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,2,4,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBVT,Domestico,AZUL,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGR,Domestico,ITAPEMIRIM,Nenhuma,3,3,2,2,4,1,2,1,1,3,4,2,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBEG,Domestico,GOL,Nenhuma,5,5,4,5,5,5,4,4,2,3,5,4,Brasileira,Masculino,56 a 65 anos,Superior,Entre 10 e 20 sm,Sim,Outros,6 a 10,Sim
+SBMO,Domestico,LATAM,Nenhuma,5,5,5,5,1,5,1,4,5,5,5,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,LATAM,Deficiencia Fisica / Motora,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Sim
+SBCF,Domestico,AZUL,Nenhuma,1,1,3,2,5,2,5,3,1,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBRJ,Domestico,LATAM,Nenhuma,5,5,5,2,4,4,4,5,3,4,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBSG,Domestico,GOL,Nenhuma,2,2,5,5,3,5,5,3,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Nao
+SBBE,Domestico,AZUL,Nenhuma,5,5,5,5,4,5,5,3,3,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Sim
+SBRF,Domestico,LATAM,Nenhuma,3,3,4,4,2,4,3,3,4,4,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,4,3,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBMO,Domestico,GOL,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,AZUL,Nenhuma,4,4,5,5,5,5,4,5,5,5,4,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Lazer e Trabalho,2 a 3,Sim
+SBSV,Domestico,GOL,Nenhuma,5,5,3,5,5,5,5,3,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,AZUL,Nenhuma,2,2,4,4,4,4,4,4,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBGL,Domestico,GOL,Nenhuma,5,5,5,4,3,4,4,3,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBGO,Domestico,GOL,Nenhuma,4,4,1,5,5,5,5,5,5,4,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Nao
+SBMO,Domestico,LATAM,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,LATAM,Nenhuma,1,1,4,5,2,4,4,2,1,4,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Ate 1 sm,Sim,Outros,1 (Primeira viagem),Sim
+SBSV,Domestico,ITAPEMIRIM,Nenhuma,5,5,4,5,1,3,3,3,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBSV,Domestico,ITAPEMIRIM,Nenhuma,4,4,5,5,4,4,4,3,4,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Outros,6 a 10,Sim
+SBGR,Domestico,ITAPEMIRIM,Nenhuma,4,4,4,4,4,4,4,4,3,4,4,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBGR,Domestico,LATAM,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,4 a 5,Sim
+SBSP,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,AZUL,Nenhuma,3,3,4,4,5,5,4,5,5,3,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBMO,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,GOL,Nenhuma,5,5,1,5,3,4,3,2,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,AZUL,Nenhuma,4,4,4,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,LATAM,Nenhuma,2,2,3,4,4,5,3,5,5,4,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,LATAM,Nenhuma,5,5,5,5,3,5,5,4,5,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,4 a 5,Sim
+SBGO,Domestico,AZUL,Deficiencia Fisica / Motora,5,5,5,3,5,5,4,5,5,4,4,4,Brasileira,Masculino,56 a 65 anos,Superior,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCF,Internacional,AZUL,Nenhuma,4,4,5,5,4,5,4,4,3,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBGO,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBGO,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,2 a 3,Nao
+SBSG,Domestico,LATAM,Nenhuma,4,4,5,5,3,5,5,3,5,5,5,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBVT,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Nao
+SBBR,Domestico,AZUL,Nenhuma,4,4,4,5,5,4,5,2,2,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer e Trabalho,Mais de 11,Sim
+SBBR,Domestico,GOL,Nenhuma,5,5,3,5,3,5,5,1,2,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBMO,Domestico,AZUL,Nenhuma,5,5,4,5,4,5,3,2,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBVT,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,3,4,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Trabalho,6 a 10,Sim
+SBCY,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,5,3,4,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBPA,Domestico,GOL,Nenhuma,5,5,4,4,3,5,4,3,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBCY,Domestico,GOL,Nenhuma,5,5,4,5,4,4,4,3,2,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBPA,Domestico,GOL,Nenhuma,4,4,5,5,5,5,5,5,5,4,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGL,Domestico,GOL,Nenhuma,5,5,5,5,2,4,4,2,1,2,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBGL,Domestico,GOL,Nenhuma,5,5,5,5,3,4,4,4,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,GOL,Nenhuma,5,5,5,5,2,4,4,2,5,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Mais de 20 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBRJ,Domestico,LATAM,Nenhuma,5,5,4,5,1,3,3,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBFL,Domestico,GOL,Nenhuma,5,5,4,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGO,Domestico,GOL,Nenhuma,3,3,4,4,5,4,2,3,4,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBFZ,Domestico,GOL,Nenhuma,5,4,4,5,4,5,4,4,4,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBGL,Internacional,AIR FRANCE,Nenhuma,5,2,5,5,3,5,3,4,1,5,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBVT,Domestico,LATAM,Nenhuma,3,4,4,5,4,5,3,3,3,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBFL,Domestico,GOL,Nenhuma,5,3,5,5,5,5,5,4,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Nao
+SBFZ,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,AZUL,Nenhuma,3,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,AZUL,Nenhuma,5,3,5,5,5,5,4,3,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Mestrado,Mais de 20 sm,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,LATAM,Nenhuma,5,4,4,4,3,4,4,3,4,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,GOL,Nenhuma,4,5,3,5,5,5,4,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCF,Internacional,TAP,Nenhuma,4,3,5,5,3,4,3,4,3,4,4,4,Brasileira,Masculino,56 a 65 anos,Superior,Mais de 20 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBBR,Domestico,LATAM,Nenhuma,4,5,5,5,3,5,5,3,5,5,3,3,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBKP,Domestico,AZUL,Nenhuma,5,4,5,5,4,2,3,3,4,4,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,AZUL,Nenhuma,4,5,5,5,4,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,LATAM,Nenhuma,4,5,4,5,4,5,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,LATAM,Nenhuma,5,5,4,5,4,5,5,5,3,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBGO,Domestico,GOL,Nenhuma,5,4,3,5,4,5,3,5,5,3,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBEG,Domestico,LATAM,Nenhuma,5,3,4,5,5,4,5,4,4,3,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Ate 1 sm,Sim,Lazer e Trabalho,1 (Primeira viagem),Sim
+SBEG,Domestico,AZUL,Nenhuma,3,5,1,5,5,5,2,2,4,3,5,5,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,GOL,Nenhuma,5,5,5,5,2,5,3,3,1,5,5,3,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Internacional,TAP,Nenhuma,4,4,4,4,5,5,4,4,4,4,5,4,Estrangeira,Masculino,56 a 65 anos,Ensino medio,Mais de 20 sm,Sim,Lazer,4 a 5,Sim
+SBKP,Domestico,GOL,Nenhuma,4,3,4,4,4,5,5,5,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,Mais de 11,Nao
+SBRJ,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,1,3,5,5,4,Brasileira,Masculino,46 a 55 anos,Ensino medio,Mais de 20 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,GOL,Nenhuma,5,1,4,5,5,5,5,5,4,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Sim
+SBCF,Domestico,LATAM,Nenhuma,5,3,4,5,3,5,4,5,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBMO,Domestico,GOL,Nenhuma,4,5,3,4,3,1,3,3,3,1,4,3,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,GOL,Nenhuma,4,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Analfabeto,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBRJ,Domestico,AZUL,Nenhuma,4,5,5,5,5,4,4,3,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBFL,Domestico,AZUL,Nenhuma,5,3,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBGO,Domestico,LATAM,Nenhuma,3,5,5,5,5,5,5,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBCY,Domestico,LATAM,Nenhuma,4,4,5,4,4,5,4,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBCY,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,4,4,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBPA,Domestico,GOL,Nenhuma,5,5,5,5,5,4,5,4,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,LATAM,Nenhuma,3,5,5,4,5,5,5,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGO,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBMO,Domestico,GOL,Nenhuma,4,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBBR,Domestico,LATAM,Nenhuma,4,3,3,4,4,3,3,2,5,2,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBCY,Domestico,LATAM,Nenhuma,4,4,5,5,3,3,2,1,4,4,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBFZ,Domestico,GOL,Nenhuma,3,4,5,5,4,5,5,4,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBEG,Domestico,AZUL,Nenhuma,3,3,4,5,3,3,1,2,2,2,3,5,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Outros,Mais de 11,Nao
+SBSP,Domestico,AZUL,Nenhuma,5,4,5,5,5,5,5,4,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBSP,Domestico,AZUL,Nenhuma,5,3,4,5,1,5,5,5,2,5,5,4,Brasileira,Feminino,56 a 65 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBSP,Domestico,GOL,Nenhuma,4,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,GOL,Nenhuma,5,5,4,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Outros,2 a 3,Sim
+SBFL,Domestico,LATAM,Nenhuma,5,2,2,5,4,4,4,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Mais de 20 sm,Nao,Lazer e Trabalho,Mais de 11,Sim
+SBFL,Domestico,LATAM,Nenhuma,3,3,5,5,5,5,4,4,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,6 a 10,Sim
+SBFL,Domestico,GOL,Nenhuma,5,1,3,4,4,5,5,2,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Doutorado,Entre 4 e 10 sm,Sim,Lazer e Trabalho,6 a 10,Sim
+SBFL,Domestico,GOL,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBFZ,Domestico,GOL,Nenhuma,4,2,4,5,2,4,3,3,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Sim
+SBRJ,Domestico,AZUL,Nenhuma,3,3,3,5,4,4,5,4,5,4,5,5,Brasileira,Masculino,56 a 65 anos,Ensino medio,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,AZUL,Nenhuma,5,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBRF,Domestico,AZUL,Nenhuma,5,4,5,4,4,4,4,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,LATAM,Nenhuma,5,4,5,5,4,5,4,3,2,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,GOL,Nenhuma,5,4,4,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,5,4,4,4,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBPA,Domestico,AZUL,Nenhuma,4,5,5,5,5,4,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBSV,Domestico,AZUL,Nenhuma,3,5,5,2,4,5,4,4,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Mestrado,Mais de 20 sm,Nao,Lazer,6 a 10,Sim
+SBGR,Internacional,LUFTHANSA,Nenhuma,5,5,4,4,5,5,5,4,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Outros,1 (Primeira viagem),Nao
+SBMO,Domestico,GOL,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,LATAM,Nenhuma,4,5,5,5,5,5,5,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBSV,Domestico,AZUL,Nenhuma,4,5,5,4,5,3,3,5,5,1,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBSP,Domestico,GOL,Nenhuma,5,4,4,4,4,3,4,4,3,3,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBCY,Domestico,AZUL,Nenhuma,4,4,5,5,4,5,5,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBFL,Domestico,LATAM,Nenhuma,5,3,5,4,4,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBVT,Domestico,GOL,Nenhuma,5,2,5,5,1,5,3,3,5,3,5,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Sim
+SBFZ,Domestico,LATAM,Nenhuma,3,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,GOL,Nenhuma,4,5,3,5,3,5,5,5,5,3,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBPA,Domestico,LATAM,Nenhuma,5,4,3,5,4,5,5,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRF,Domestico,AZUL,Nenhuma,5,4,5,5,5,5,4,3,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBCF,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,5,4,4,5,5,5,Brasileira,Masculino,56 a 65 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGO,Domestico,AZUL,Nenhuma,5,4,5,5,2,5,5,5,3,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBVT,Domestico,LATAM,Nenhuma,5,5,5,5,5,5,3,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBSG,Domestico,AZUL,Nenhuma,5,5,5,4,4,5,4,3,5,5,4,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,ITAPEMIRIM,Nenhuma,5,5,5,5,5,3,5,5,4,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBBR,Domestico,AZUL,Nenhuma,4,3,5,5,4,4,3,3,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Nao
+SBSG,Domestico,AZUL,Nenhuma,5,4,4,5,4,5,5,3,4,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBCY,Domestico,AZUL,Nenhuma,5,4,4,3,3,1,1,2,3,1,2,2,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBBR,Domestico,AZUL,Nenhuma,4,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Outros,6 a 10,Nao
+SBRJ,Domestico,AZUL,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,LATAM,Nenhuma,5,5,4,4,2,5,5,4,4,5,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBGR,Internacional,LATAM,Nenhuma,5,4,4,4,4,4,4,3,3,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,AZUL,Nenhuma,4,4,5,5,5,5,5,3,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBKP,Domestico,AZUL,Nenhuma,3,4,4,5,5,5,3,2,2,3,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Outros,6 a 10,Sim
+SBGO,Domestico,AZUL,Nenhuma,5,4,4,5,2,5,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Nao
+SBGO,Domestico,LATAM,Nenhuma,4,4,2,4,2,1,2,1,3,1,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Ensino medio,Entre 4 e 10 sm,Nao,Outros,2 a 3,Nao
+SBCY,Domestico,GOL,Nenhuma,4,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Doutorado,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Nao
+SBPA,Domestico,AZUL,Nenhuma,3,5,5,4,5,4,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBCF,Domestico,LATAM,Nenhuma,5,4,3,5,4,4,4,2,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBVT,Domestico,AZUL,Nenhuma,5,5,4,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGR,Internacional,AIR FRANCE,Nenhuma,4,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBRF,Domestico,LATAM,Nenhuma,5,3,5,5,3,3,4,3,5,4,3,4,Brasileira,Feminino,56 a 65 anos,Mestrado,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,GOL,Nenhuma,4,4,4,5,5,4,4,4,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBPA,Domestico,AZUL,Nenhuma,5,3,4,5,3,5,1,2,4,4,4,3,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 10 e 20 sm,Sim,Lazer,Mais de 11,Sim
+SBBR,Domestico,LATAM,Nenhuma,4,5,5,5,5,5,5,5,4,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Mais de 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Internacional,TAP,Nenhuma,5,2,4,4,3,3,5,3,3,4,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,GOL,Nenhuma,5,5,5,5,2,4,4,2,5,4,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,6 a 10,Sim
+SBCY,Domestico,GOL,Nenhuma,5,5,5,5,4,5,4,3,4,4,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Outros,2 a 3,Sim
+SBMO,Domestico,LATAM,Nenhuma,5,4,4,5,5,4,3,2,4,5,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,GOL,Nenhuma,4,1,4,5,1,4,3,3,4,2,3,2,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBKP,Internacional,AZUL,Nenhuma,5,5,4,5,5,5,5,2,4,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBGO,Domestico,LATAM,Nenhuma,4,3,4,4,2,3,3,4,4,3,3,3,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBGL,Internacional,SKY AIRLINES,Nenhuma,5,3,4,4,4,4,4,3,4,4,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Sim
+SBGR,Internacional,AIR EUROPA,Nenhuma,5,3,4,5,2,4,3,3,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,3,4,5,3,4,4,4,5,3,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,4,4,4,4,5,3,3,5,3,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Outros,4 a 5,Sim
+SBBR,Domestico,LATAM,Nenhuma,4,4,5,5,5,5,3,2,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Trabalho,4 a 5,Sim
+SBFZ,Domestico,LATAM,Nenhuma,4,3,5,5,2,5,5,5,5,5,4,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Nao
+SBSG,Domestico,AZUL,Nenhuma,4,5,3,4,4,5,5,2,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,GOL,Nenhuma,4,5,5,4,5,1,5,4,5,3,4,1,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBGL,Internacional,AEROLINEAS ARGENTINAS,Nenhuma,4,1,5,5,3,4,3,4,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Nao
+SBPA,Domestico,AZUL,Nenhuma,4,4,5,5,3,4,4,4,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,Mais de 11,Sim
+SBEG,Domestico,GOL,Nenhuma,5,4,2,5,4,4,3,3,4,4,4,3,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Outros,2 a 3,Sim
+SBEG,Domestico,GOL,Nenhuma,4,4,3,5,4,4,3,4,4,5,5,3,Brasileira,Feminino,18 a 25 anos,Mestrado,Entre 1 e 2 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBSV,Domestico,LATAM,Nenhuma,5,5,3,5,5,5,5,5,5,2,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBSV,Domestico,LATAM,Nenhuma,4,3,5,5,4,4,3,2,5,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBKP,Internacional,AZUL,Nenhuma,4,5,5,5,5,2,4,4,4,5,5,4,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,GOL,Nenhuma,5,3,4,3,3,4,3,4,3,3,3,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBPA,Domestico,LATAM,Nenhuma,5,4,5,5,5,4,3,5,5,4,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBSV,Domestico,LATAM,Nenhuma,5,4,5,4,4,4,3,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Nao
+SBSV,Domestico,GOL,Nenhuma,5,4,4,5,4,4,3,3,3,4,4,4,Estrangeira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBPA,Domestico,AZUL,Nenhuma,4,3,4,4,3,4,4,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBBR,Domestico,LATAM,Nenhuma,5,3,5,5,5,5,3,1,5,3,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Outros,Mais de 11,Sim
+SBMO,Domestico,LATAM,Nenhuma,5,4,5,5,5,5,5,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Mais de 20 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,GOL,Nenhuma,5,4,5,5,5,5,4,2,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBVT,Domestico,GOL,Nenhuma,5,3,5,5,2,5,4,4,5,5,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Outros,6 a 10,Sim
+SBFZ,Domestico,LATAM,Nenhuma,5,5,3,5,3,4,3,1,3,1,3,3,Brasileira,Feminino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Trabalho,1 (Primeira viagem),Sim
+SBSV,Domestico,LATAM,Nenhuma,5,5,5,4,5,5,5,3,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBFL,Domestico,AZUL,Nenhuma,4,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBSP,Domestico,GOL,Nenhuma,5,4,5,5,5,5,5,3,5,3,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,LATAM,Nenhuma,4,5,5,5,4,5,5,3,5,2,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBBE,Domestico,GOL,Nenhuma,5,5,5,5,2,5,5,1,5,5,5,3,Brasileira,Feminino,26 a 35 anos,Ensino fundamental,Entre 1 e 2 sm,Nao,Lazer,6 a 10,Sim
+SBBR,Domestico,LATAM,Nenhuma,5,3,5,5,5,5,5,3,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBFL,Domestico,GOL,Nenhuma,5,4,3,4,5,5,5,3,5,4,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBCT,Domestico,GOL,Nenhuma,4,4,5,5,4,4,3,3,3,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,AZUL,Nenhuma,4,4,4,4,3,4,4,5,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,AEROLINEAS ARGENTINAS,Nenhuma,5,3,4,5,4,5,5,5,5,5,5,5,Estrangeira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Outros,2 a 3,Nao
+SBEG,Domestico,LATAM,Nenhuma,5,5,4,3,4,4,4,3,4,5,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer e Trabalho,4 a 5,Sim
+SBEG,Domestico,GOL,Nenhuma,5,4,5,5,3,5,5,4,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Lazer e Trabalho,2 a 3,Nao
+SBSG,Domestico,AZUL,Nenhuma,5,5,4,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBKP,Domestico,AZUL,Nenhuma,5,3,4,5,3,5,3,4,3,4,4,4,Brasileira,Feminino,Mais de 65 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBRF,Domestico,LATAM,Nenhuma,5,1,5,4,4,4,2,4,4,2,1,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Lazer e Trabalho,1 (Primeira viagem),Nao
+SBBE,Domestico,LATAM,Nenhuma,4,5,4,5,3,5,4,3,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,LATAM,Nenhuma,5,3,4,4,5,3,4,2,4,4,4,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Internacional,AZUL,Nenhuma,5,4,5,5,5,2,5,5,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,GOL,Nenhuma,4,4,4,3,5,5,3,3,5,5,5,3,Brasileira,Masculino,18 a 25 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,GOL,Nenhuma,5,4,5,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Nao
+SBFL,Domestico,LATAM,Nenhuma,5,5,2,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Nao
+SBVT,Domestico,LATAM,Nenhuma,3,3,5,5,4,5,5,4,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,AZUL,Nenhuma,5,2,5,5,5,4,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBFZ,Domestico,LATAM,Nenhuma,5,5,5,4,4,5,5,4,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBRJ,Domestico,AZUL,Nenhuma,5,5,5,4,5,5,3,1,5,5,4,3,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Nao
+SBCF,Domestico,AZUL,Nenhuma,4,4,5,5,5,5,5,5,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBCF,Domestico,AZUL,Nenhuma,4,4,4,4,4,3,3,3,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBGR,Domestico,LATAM,Nenhuma,5,5,5,5,3,4,4,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBCF,Domestico,LATAM,Nenhuma,3,5,4,4,3,5,4,5,3,3,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBMO,Domestico,GOL,Nenhuma,5,4,2,5,5,5,4,5,1,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,GOL,Nenhuma,5,5,5,4,4,4,3,2,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBSV,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,3,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Mestrado,Mais de 20 sm,Nao,Lazer,Mais de 11,Sim
+SBMO,Domestico,LATAM,Nenhuma,5,5,5,5,4,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,4 a 5,Nao
+SBMO,Domestico,LATAM,Nenhuma,5,5,5,5,3,5,4,5,5,1,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBMO,Domestico,LATAM,Nenhuma,5,5,5,5,3,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBRJ,Domestico,AZUL,Nenhuma,3,3,4,4,3,4,4,5,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBRF,Domestico,LATAM,Nenhuma,4,4,3,3,1,5,3,5,5,3,4,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBRF,Domestico,LATAM,Nenhuma,5,4,5,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Sim
+SBVT,Domestico,LATAM,Nenhuma,4,4,4,4,4,4,4,4,4,4,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBFL,Domestico,LATAM,Nenhuma,5,4,5,5,4,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBSV,Domestico,LATAM,Nenhuma,5,3,5,5,5,5,5,5,3,4,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBBR,Internacional,TAP,Nenhuma,5,2,4,4,2,4,4,4,4,5,5,3,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBBR,Domestico,LATAM,Nenhuma,5,3,5,5,5,5,4,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,GOL,Nenhuma,4,4,5,4,4,5,3,2,4,3,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCT,Domestico,AZUL,Nenhuma,5,4,5,5,4,5,3,4,3,4,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBFL,Domestico,GOL,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,LATAM,Nenhuma,5,4,5,5,3,5,4,5,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,LATAM,Nenhuma,5,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,GOL,Nenhuma,5,4,4,5,4,4,4,2,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBMO,Domestico,GOL,Nenhuma,5,5,5,5,1,4,5,5,5,5,5,3,Brasileira,Feminino,18 a 25 anos,Superior,Ate 1 sm,Nao,Lazer,2 a 3,Nao
+SBRF,Domestico,AZUL,Nenhuma,4,5,4,4,4,5,4,5,4,5,5,4,Brasileira,Masculino,56 a 65 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBKP,Domestico,Azul,Nenhuma,5,3,4,4,5,4,3,2,4,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,Gol,Nenhuma,5,4,5,3,5,5,4,4,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBSV,Domestico,Gol,Nenhuma,5,5,5,4,4,5,5,4,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBGL,Domestico,Latam,Nenhuma,5,4,5,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBFL,Domestico,Gol,Nenhuma,5,1,4,4,4,5,5,5,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,6 a 10,Sim
+SBGR,Internacional,Aerolíneas Argentinas,Nenhuma,5,3,4,4,4,4,4,2,4,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBGR,Internacional,Aerolíneas Argentinas,Nenhuma,5,4,5,3,3,4,5,4,5,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Latam,Nenhuma,4,4,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,Gol,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,Gol,Nenhuma,4,4,4,5,4,4,4,4,4,3,4,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Sim
+SBRF,Domestico,Latam,Nenhuma,5,4,5,4,4,5,4,3,5,3,5,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Mais de 20 sm,Sim,Lazer,6 a 10,Nao
+SBFL,Domestico,Azul,Nenhuma,5,3,5,4,5,4,4,4,5,4,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Outros,2 a 3,Sim
+SBFL,Domestico,Azul,Nenhuma,5,4,5,4,5,4,5,4,5,2,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Outros,2 a 3,Nao
+SBBE,Domestico,Azul,Nenhuma,4,3,5,5,5,3,5,2,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Trabalho,4 a 5,Sim
+SBRJ,Domestico,Azul,Nenhuma,4,2,4,1,3,4,3,2,1,3,3,3,Brasileira,Masculino,56 a 65 anos,Mestrado,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCT,Domestico,aerosul,Nenhuma,5,4,5,4,5,5,4,5,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 10 e 20 sm,Sim,Outros,2 a 3,Sim
+SBFL,Domestico,Gol,Nenhuma,5,4,4,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBSV,Domestico,Azul,Nenhuma,4,3,5,4,3,5,4,3,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Outros,Mais de 11,Sim
+SBFZ,Internacional,Tap,Nenhuma,5,4,5,5,4,5,5,5,4,4,4,5,Estrangeira,Masculino,56 a 65 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBGR,Domestico,Itapemirim,Nenhuma,5,5,5,5,5,5,5,2,3,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBSV,Domestico,Gol,Nenhuma,5,4,4,4,4,4,4,4,3,4,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,3,5,5,5,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,Mais de 11,Nao
+SBGO,Domestico,Azul,Nenhuma,4,3,5,5,5,4,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Lazer,Mais de 11,Sim
+SBFZ,Domestico,Latam,Nenhuma,5,5,1,3,5,5,4,4,5,3,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,4,5,5,5,5,4,5,5,4,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,Latam,Nenhuma,1,3,4,5,5,3,4,2,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Nao
+SBMO,Domestico,Gol,Nenhuma,5,4,5,4,5,5,4,4,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGR,Internacional,Aeromexico,Nenhuma,5,5,5,5,1,5,5,4,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBEG,Domestico,Gol,Nenhuma,5,2,5,4,5,5,4,4,4,4,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,4,5,4,5,5,4,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBSV,Domestico,Azul,Nenhuma,5,5,5,4,4,4,5,4,3,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBGO,Domestico,AZUL,Nenhuma,4,4,4,4,4,4,3,5,1,4,2,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,2 a 3,Nao
+SBGL,Internacional,Latam,Nenhuma,5,5,5,4,5,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBKP,Internacional,Azul,Nenhuma,5,5,5,5,5,5,5,5,2,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Outros,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,2,5,5,3,5,5,5,5,2,4,4,Estrangeira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer e Trabalho,2 a 3,Nao
+SBFZ,Internacional,Air France,Nenhuma,4,4,4,4,4,3,3,4,2,4,4,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBGL,Internacional,Sky Airlines,Nenhuma,5,5,5,3,5,5,4,5,4,5,5,5,Estrangeira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBFZ,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,Mais de 65 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBRF,Internacional,Tap,Nenhuma,5,4,4,4,2,4,3,1,5,4,3,4,Estrangeira,Masculino,Mais de 65 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBEG,Domestico,Azul,Nenhuma,4,4,5,4,4,4,4,3,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Internacional,Tap,Nenhuma,4,3,5,4,4,4,5,3,4,4,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBSP,Domestico,Gol,Nenhuma,3,3,4,2,4,4,3,3,2,3,4,3,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBCT,Domestico,Latam,Nenhuma,4,2,5,5,1,5,4,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Ate 1 sm,Sim,Lazer,2 a 3,Sim
+SBFL,Domestico,Latam,Nenhuma,4,4,5,4,5,4,4,3,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer e Trabalho,6 a 10,Sim
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,3,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,3,4,4,5,5,3,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Mais de 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,5,5,3,4,4,4,4,4,3,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Nao
+SBRF,Domestico,Azul,Nenhuma,5,4,5,5,5,5,5,4,5,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Outros,4 a 5,Sim
+SBKP,Domestico,Azul,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer e Trabalho,2 a 3,Nao
+SBFZ,Domestico,Itapemirim,Nenhuma,2,4,5,4,3,5,3,3,4,5,5,2,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGO,Domestico,Latam,Nenhuma,2,3,4,5,2,5,2,5,4,3,3,2,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFL,Domestico,Latam,Nenhuma,5,3,4,5,4,5,5,3,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBVT,Domestico,Azul,Nenhuma,5,3,5,5,5,5,3,2,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBKP,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Gol,Nenhuma,5,3,5,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Outros,4 a 5,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,4,5,5,4,5,3,3,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Trabalho,4 a 5,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Nao
+SBRJ,Domestico,Azul,Nenhuma,5,4,5,5,4,5,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,4,5,5,5,5,2,5,5,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,Gol,Nenhuma,5,4,5,5,5,5,5,5,4,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,4 a 5,Nao
+SBFZ,Domestico,Latam,Nenhuma,5,3,5,5,3,5,4,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,3,5,5,5,5,3,3,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBPA,Domestico,Gol,Nenhuma,5,4,5,5,5,4,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino fundamental,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBKP,Domestico,Gol,Nenhuma,5,5,5,5,1,5,5,5,3,5,5,5,Brasileira,Feminino,46 a 55 anos,Ensino fundamental,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,1,4,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBSV,Domestico,Latam,Nenhuma,5,4,5,5,5,5,4,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Nao
+SBBR,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Sim
+SBSV,Domestico,Latam,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBGL,Domestico,Gol,Nenhuma,5,5,5,5,4,3,3,2,5,2,4,3,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,2,Estrangeira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,4,5,4,5,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,4,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Internacional,Tap,Nenhuma,3,3,4,5,5,5,4,4,5,4,4,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,Latam,Nenhuma,5,5,4,5,3,5,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGL,Domestico,Gol,Nenhuma,5,5,5,2,4,5,5,4,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBGL,Domestico,Gol,Nenhuma,5,5,4,5,4,5,5,4,4,3,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBMO,Domestico,Azul,Nenhuma,4,4,4,3,1,4,4,3,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,Mais de 11,Nao
+SBVT,Domestico,Gol,Nenhuma,5,5,5,4,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Doutorado,Entre 10 e 20 sm,Sim,Lazer,Mais de 11,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,2,3,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBFL,Domestico,Gol,Nenhuma,5,4,4,5,5,5,3,5,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,Azul,Nenhuma,5,5,5,4,2,5,4,5,5,2,4,3,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBRJ,Domestico,Gol,Nenhuma,4,2,5,5,5,3,4,4,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBCF,Internacional,Tap,Nenhuma,5,4,5,4,5,5,5,5,3,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,4 a 5,Nao
+SBFL,Domestico,Gol,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Doutorado,Entre 4 e 10 sm,Sim,Lazer e Trabalho,1 (Primeira viagem),Nao
+SBFZ,Domestico,Gol,Nenhuma,4,3,3,4,3,4,4,4,4,4,4,3,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBBE,Domestico,Latam,Nenhuma,5,5,5,4,4,4,4,2,1,4,4,5,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,Mais de 11,Nao
+SBMO,Domestico,Passaredo,Nenhuma,5,5,4,5,5,5,4,3,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRJ,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBRJ,Domestico,Azul,Nenhuma,4,4,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,Azul,Nenhuma,5,3,5,5,5,4,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,4,4,4,5,5,5,5,4,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBSV,Domestico,Gol,Nenhuma,5,4,5,4,4,4,4,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer e Trabalho,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,3,5,5,3,5,4,5,4,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,4 a 5,Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Nao
+SBCF,Domestico,Latam,Nenhuma,5,4,5,5,2,5,4,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBGO,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBRF,Domestico,Azul,Nenhuma,5,4,5,3,3,4,4,2,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,Gol,Nenhuma,5,4,5,4,4,3,4,5,4,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer e Trabalho,1 (Primeira viagem),Sim
+SBSV,Domestico,Gol,Nenhuma,1,4,4,4,4,4,5,2,4,2,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,6 a 10,Sim
+SBVT,Domestico,Gol,Nenhuma,5,3,5,5,3,5,5,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Nao
+SBCF,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Sim
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,4,5,5,4,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Doutorado,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Nao
+SBVT,Domestico,Gol,Nenhuma,1,3,3,5,4,4,3,2,1,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBGR,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,4,4,5,5,5,Brasileira,Masculino,36 a 45 anos,Mestrado,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBGR,Internacional,Latam,Nenhuma,5,5,4,3,5,3,3,2,4,3,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,4,5,4,4,5,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGL,Domestico,Gol,Nenhuma,4,5,5,3,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBFL,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBVT,Domestico,Latam,Nenhuma,5,5,5,4,5,4,4,2,4,4,4,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBGO,Domestico,Latam,Nenhuma,4,4,4,4,4,5,5,3,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBVT,Domestico,Latam,Nenhuma,5,5,5,5,5,5,4,3,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBSV,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,4,5,4,4,5,Brasileira,Masculino,56 a 65 anos,Ensino fundamental,Entre 2 e 4 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,5,4,5,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBCT,Domestico,Latam,Nenhuma,4,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Trabalho,2 a 3,Sim
+SBFL,Domestico,Gol,Nenhuma,5,3,5,5,4,5,5,5,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,4,2,3,4,3,2,4,3,3,2,3,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBKP,Domestico,Gol,Nenhuma,5,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Mestrado,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBMO,Domestico,Latam,Nenhuma,4,5,5,5,4,5,5,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,4,4,5,5,5,4,5,4,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,3,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,Mais de 11,Nao
+SBCF,Domestico,Latam,Nenhuma,5,5,5,4,5,5,5,5,5,4,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBPA,Domestico,Azul,Nenhuma,5,4,5,5,3,5,4,4,5,4,5,4,Brasileira,Masculino,46 a 55 anos,Doutorado,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBVT,Domestico,Latam,Nenhuma,5,5,4,5,4,5,5,5,5,4,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Sim
+SBGL,Domestico,Gol,Nenhuma,5,5,5,5,5,3,5,3,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBKP,Domestico,Gol,Nenhuma,4,3,5,5,5,3,5,3,3,5,5,4,Brasileira,Feminino,Mais de 65 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,4,4,4,4,3,3,2,4,4,2,3,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBCY,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,1 (Primeira viagem),Sim
+SBCY,Domestico,Azul,Nenhuma,5,5,5,5,4,5,4,5,4,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBFL,Domestico,Latam,Nenhuma,4,4,4,5,3,5,5,4,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Outros,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,4,4,4,4,5,5,4,4,5,4,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,4,4,3,4,4,4,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,3,2,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,3,5,3,3,5,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBCF,Domestico,Latam,Nenhuma,5,4,3,5,5,5,5,5,5,4,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,6 a 10,Sim
+SBCT,Domestico,Latam,Nenhuma,5,2,5,5,5,5,4,4,4,4,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBCT,Domestico,Azul,Nenhuma,4,4,4,4,4,4,4,4,3,3,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBEG,Domestico,Gol,Nenhuma,5,5,4,5,4,5,4,3,4,4,3,3,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Nao,Trabalho,2 a 3,Nao
+SBFL,Domestico,Latam,Nenhuma,5,1,5,5,5,5,5,4,4,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Lazer,Mais de 11,Sim
+SBGL,Domestico,Gol,Nenhuma,5,3,5,5,4,5,5,4,4,5,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,Mais de 11,Sim
+SBGL,Domestico,Gol,Nenhuma,5,3,4,5,5,5,5,3,2,3,5,3,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,4,5,4,3,5,4,4,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBVT,Domestico,Latam,Nenhuma,5,5,5,5,4,5,3,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBVT,Domestico,Azul,Nenhuma,4,4,5,5,4,5,5,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Mestrado,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBFL,Domestico,Gol,Nenhuma,4,4,4,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBGL,Domestico,Gol,Nenhuma,5,3,5,5,4,5,4,5,5,4,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,4,5,5,5,5,4,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,4,4,5,4,4,5,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBRJ,Domestico,Azul,Nenhuma,4,3,5,5,3,5,4,4,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer e Trabalho,Mais de 11,Sim
+SBFL,Domestico,Azul,Nenhuma,4,4,4,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBGL,Domestico,Gol,Nenhuma,4,1,4,5,4,4,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,4,4,4,4,3,4,4,4,5,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,6 a 10,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSP,Domestico,Gol,Nenhuma,3,3,4,4,4,4,4,4,4,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Gol,Nenhuma,4,4,4,4,4,3,4,3,4,3,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Mais de 20 sm,Nao,Lazer e Trabalho,2 a 3,Nao
+SBVT,Domestico,Azul,Nenhuma,3,3,3,3,2,2,3,4,2,3,3,3,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,6 a 10,Sim
+SBCY,Domestico,Gol,Nenhuma,5,5,3,3,3,5,4,5,1,5,5,3,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Sim
+SBKP,Domestico,Azul,Nenhuma,4,4,5,5,5,5,5,3,3,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBRJ,Domestico,Gol,Nenhuma,4,3,4,5,4,5,4,4,4,3,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBSG,Domestico,Gol,Nenhuma,5,3,4,5,3,5,4,3,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBBE,Domestico,Gol,Nenhuma,4,3,3,5,4,5,4,5,5,4,4,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,3,2,5,5,5,5,4,5,3,3,4,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBCF,Domestico,Gol,Nenhuma,4,5,4,2,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBRJ,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Trabalho,4 a 5,Sim
+SBSG,Domestico,Latam,Nenhuma,5,5,2,4,4,5,3,1,5,1,3,3,Brasileira,Masculino,46 a 55 anos,Mestrado,Prefiro nao informar,Nao,Lazer,Mais de 11,Nao
+SBBE,Domestico,Latam,Nenhuma,4,4,4,5,5,4,4,5,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBCY,Domestico,Latam,Nenhuma,4,4,5,5,5,5,4,4,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Sim
+SBFZ,Domestico,Gol,Nenhuma,2,3,4,4,3,4,3,4,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Gol,Nenhuma,5,3,4,5,2,4,3,3,4,1,4,3,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBRF,Domestico,Azul,Nenhuma,4,4,4,5,5,4,4,5,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Azul,Nenhuma,5,5,4,5,5,5,4,5,2,5,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,Air France,Nenhuma,5,3,5,5,5,5,5,3,4,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,Mais de 11,Nao
+SBGL,Domestico,Gol,Nenhuma,5,5,4,5,5,5,3,3,4,4,4,4,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,4,5,2,3,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,Latam,Nenhuma,5,5,5,4,4,5,4,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,4,5,3,4,4,4,4,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer e Trabalho,2 a 3,Sim
+SBRJ,Domestico,Latam,Nenhuma,3,3,3,3,2,3,4,3,4,4,4,3,Brasileira,Feminino,36 a 45 anos,Mestrado,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBSV,Domestico,Gol,Nenhuma,4,4,3,4,4,5,4,4,5,3,4,3,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBBE,Domestico,Gol,Nenhuma,5,3,5,5,4,5,3,5,4,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBGL,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBKP,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Sim
+SBMO,Domestico,Gol,Nenhuma,4,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,5,3,5,4,4,5,5,3,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Nao
+SBSV,Domestico,Latam,Nenhuma,5,5,5,4,4,4,4,3,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBCF,Domestico,Latam,Nenhuma,5,5,4,5,4,5,5,3,5,5,5,5,Estrangeira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,Gol,Nenhuma,4,5,5,5,5,5,3,4,3,5,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGO,Domestico,Latam,Nenhuma,3,4,4,2,1,5,4,5,3,4,4,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBGR,Internacional,Air Europa,Nenhuma,4,3,1,2,4,4,4,4,5,2,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBCF,Domestico,Latam,Nenhuma,4,3,3,4,4,3,4,2,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,1 (Primeira viagem),Sim
+SBCF,Domestico,Gol,Nenhuma,5,3,4,5,5,3,5,5,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBFL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,3,3,5,5,4,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Nao,Lazer,Mais de 11,Sim
+SBGL,Internacional,Air France,Nenhuma,4,3,4,4,2,5,5,4,5,4,5,4,Brasileira,Masculino,36 a 45 anos,Mestrado,Prefiro nao informar,Nao,Trabalho,1 (Primeira viagem),Nao
+SBGL,Internacional,Air France,Nenhuma,5,1,5,1,1,5,5,5,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,4,5,4,5,2,3,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Doutorado,Mais de 20 sm,Nao,Trabalho,Mais de 11,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,4,5,4,5,5,4,4,5,Brasileira,Masculino,26 a 35 anos,Doutorado,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBVT,Domestico,Latam,Nenhuma,5,3,5,4,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Gol,Nenhuma,5,5,5,4,4,5,5,2,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,Azul,Nenhuma,5,4,5,5,5,3,4,4,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBGO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,4,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Latam,Nenhuma,5,4,5,5,2,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Latam,Nenhuma,5,3,5,3,4,5,4,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Outros,2 a 3,Sim
+SBFL,Domestico,Gol,Nenhuma,5,1,4,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Outros,1 (Primeira viagem),Nao
+SBFZ,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,5,5,3,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBGL,Domestico,Gol,Nenhuma,5,4,5,4,4,3,4,4,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBGO,Domestico,Gol,Nenhuma,3,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,3,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBRF,Domestico,Gol,Nenhuma,5,5,5,5,3,5,5,3,5,1,4,5,Brasileira,Feminino,46 a 55 anos,Mestrado,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,4,1,4,4,3,5,4,1,5,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBSV,Domestico,Latam,Nenhuma,4,4,5,4,3,4,4,5,4,4,3,4,Brasileira,Feminino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,4 a 5,Nao
+SBBE,Domestico,Latam,Nenhuma,5,3,5,5,4,5,5,5,5,4,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Outros,2 a 3,Sim
+SBBR,Domestico,Gol,Nenhuma,4,4,4,4,4,3,2,2,5,3,4,3,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Outros,2 a 3,Sim
+SBBR,Domestico,Gol,Nenhuma,5,5,5,5,3,5,3,1,4,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,Mais de 11,Sim
+SBGL,Internacional,Air France,Nenhuma,5,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Nao,Lazer,4 a 5,Sim
+SBGL,Domestico,Latam,Nenhuma,5,2,3,3,5,5,3,2,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Mestrado,Mais de 20 sm,Sim,Outros,6 a 10,Sim
+SBRF,Internacional,Tap,Nenhuma,2,4,5,5,4,5,4,5,5,4,4,4,Estrangeira,Feminino,26 a 35 anos,Doutorado,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBSP,Domestico,Latam,Nenhuma,3,3,5,5,5,5,4,4,4,2,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,3,4,2,1,1,5,5,2,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Nao,Lazer,6 a 10,Nao
+SBSV,Domestico,Azul,Nenhuma,3,3,3,3,3,3,2,1,3,2,2,2,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer e Trabalho,Mais de 11,Sim
+SBBR,Domestico,Latam,Nenhuma,5,5,5,4,3,4,4,4,4,4,4,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,Gol,Nenhuma,5,4,4,4,4,4,4,2,4,3,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,5,4,5,4,3,5,5,5,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBRJ,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,4,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBBR,Domestico,Latam,Nenhuma,4,5,5,4,4,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer e Trabalho,2 a 3,Nao
+SBEG,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,3,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,3,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBCT,Domestico,Latam,Nenhuma,4,4,4,5,5,5,4,5,4,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Mais de 20 sm,Sim,Lazer,2 a 3,Nao
+SBFL,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Nao
+SBSG,Domestico,Gol,Nenhuma,5,3,4,5,3,5,3,2,3,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Azul,Nenhuma,5,3,5,4,5,4,4,5,4,5,4,5,Brasileira,Feminino,56 a 65 anos,Ensino fundamental,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,5,5,5,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,4 a 5,Sim
+SBSV,Domestico,Latam,Nenhuma,4,4,4,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,5,5,5,5,4,4,4,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Outros,6 a 10,Sim
+SBCF,Domestico,Latam,Nenhuma,4,3,4,4,3,5,4,4,2,5,5,3,Brasileira,Masculino,46 a 55 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBFL,Domestico,Gol,Nenhuma,4,2,3,5,5,4,5,1,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer e Trabalho,6 a 10,Nao
+SBFZ,Domestico,Azul,Nenhuma,4,4,4,5,5,5,4,3,5,4,4,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,3,5,5,3,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,4,4,4,5,5,2,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,4 a 5,Nao
+SBCF,Domestico,Azul,Nenhuma,5,4,5,5,4,5,4,5,5,2,5,1,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Gol,Nenhuma,4,3,4,5,4,5,5,3,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBGR,Domestico,Gol,Nenhuma,4,4,4,4,2,4,3,3,3,3,4,4,Brasileira,Feminino,18 a 25 anos,Mestrado,Prefiro nao informar,Sim,Outros,6 a 10,Sim
+SBMO,Domestico,Gol,Nenhuma,4,4,3,4,3,4,4,4,3,4,4,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 10 e 20 sm,Nao,Lazer,Mais de 11,Nao
+SBCY,Domestico,Azul,Nenhuma,5,4,5,4,3,4,4,4,3,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBCY,Domestico,Latam,Nenhuma,5,5,5,5,3,5,4,5,4,4,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Sim
+SBRF,Domestico,Gol,Nenhuma,5,4,5,4,3,4,3,5,5,4,4,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBFZ,Domestico,Gol,Nenhuma,5,5,5,5,4,5,4,3,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Outros,2 a 3,Sim
+SBMO,Domestico,Azul,Nenhuma,5,2,5,5,2,5,4,3,5,4,3,2,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBBR,Domestico,Latam,Nenhuma,4,3,3,4,3,4,4,3,4,3,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBCY,Domestico,Gol,Nenhuma,5,4,5,5,4,5,5,5,5,4,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Nao
+SBFL,Domestico,Azul,Nenhuma,5,4,3,4,5,5,4,4,5,4,3,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBFL,Domestico,Gol,Nenhuma,5,5,5,2,3,5,4,3,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,6 a 10,Nao
+SBGL,Domestico,Gol,Nenhuma,5,5,4,4,4,4,4,4,5,3,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBCT,Domestico,Latam,Nenhuma,5,4,4,4,4,5,4,5,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,4,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,Mais de 11,Nao
+SBCY,Domestico,Gol,Nenhuma,4,3,4,4,4,4,4,4,4,3,4,3,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Outros,6 a 10,Sim
+SBGL,Domestico,Gol,Nenhuma,4,4,3,4,5,4,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGL,Domestico,Gol,Nenhuma,4,5,4,4,5,5,4,5,4,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGL,Internacional,Tap,Nenhuma,5,4,4,4,5,4,5,4,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,Air France,Nenhuma,5,5,5,5,5,4,5,5,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,Mais de 11,Sim
+SBKP,Domestico,Gol,Nenhuma,5,5,3,4,5,4,4,5,2,4,4,4,Brasileira,Feminino,26 a 35 anos,Mestrado,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBGO,Domestico,Azul,Nenhuma,5,3,4,4,2,5,5,5,4,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,4 a 5,Sim
+SBPA,Domestico,Azul,Nenhuma,5,3,4,4,3,4,4,2,4,3,4,3,Brasileira,Masculino,36 a 45 anos,Mestrado,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCT,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Sim
+SBFL,Domestico,Gol,Nenhuma,1,4,5,5,3,5,4,4,3,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Outros,2 a 3,Nao
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,3,5,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,6 a 10,Nao
+SBRF,Domestico,Azul,Nenhuma,4,4,4,4,3,4,4,3,4,3,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,Air France,Nenhuma,5,4,4,4,5,4,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBVT,Domestico,Azul,Nenhuma,4,2,4,4,5,4,4,2,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBSP,Domestico,Latam,Nenhuma,4,4,4,5,5,5,4,3,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBRF,Domestico,Azul,Deficiencia Visual,4,5,5,4,4,4,4,4,5,3,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 2 e 4 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBCY,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Lazer,6 a 10,Nao
+SBRF,Internacional,Tap,Nenhuma,3,2,3,3,3,3,3,3,4,4,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,5,3,4,5,5,4,5,4,5,3,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBGL,Internacional,Tap,Nenhuma,5,5,5,5,4,5,4,3,4,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Nao
+SBCF,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,4,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGR,Domestico,Latam,Nenhuma,4,4,4,4,4,4,3,2,3,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRJ,Domestico,Azul,Nenhuma,4,4,5,4,4,5,2,3,2,3,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBVT,Domestico,Azul,Nenhuma,5,4,5,5,5,5,5,5,3,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBPA,Domestico,Gol,Nenhuma,5,4,5,4,3,5,5,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBKP,Domestico,Azul,Nenhuma,5,4,5,5,5,5,4,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Entre 1 e 2 sm,Sim,Lazer,4 a 5,Sim
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Lazer e Trabalho,Mais de 11,Sim
+SBSV,Domestico,Latam,Nenhuma,5,5,4,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Latam,Nenhuma,5,3,4,4,3,4,3,2,4,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Outros,1 (Primeira viagem),Sim
+SBBR,Internacional,Gol,Nenhuma,5,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,5,5,4,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Mais de 20 sm,Sim,Lazer,2 a 3,Sim
+SBSV,Domestico,Gol,Nenhuma,4,5,4,4,3,5,4,1,3,4,5,4,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Lazer e Trabalho,Mais de 11,Sim
+SBCT,Domestico,Gol,Nenhuma,4,4,4,4,3,4,4,4,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,3,5,4,5,5,3,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBSG,Domestico,Latam,Nenhuma,4,4,4,5,4,5,4,3,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,5,5,4,5,5,5,4,4,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFL,Domestico,Latam,Nenhuma,5,5,3,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBSV,Domestico,Gol,Nenhuma,5,5,4,3,2,4,4,3,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGL,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,3,4,3,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Outros,2 a 3,Nao
+SBGR,Domestico,Latam,Nenhuma,5,5,3,5,5,5,5,5,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBFZ,Internacional,Air France,Nenhuma,5,5,5,5,5,5,4,5,4,2,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Sim
+SBFL,Domestico,Latam,Nenhuma,4,3,5,1,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBSV,Domestico,Gol,Deficiencia Auditiva / Surdez,4,5,5,5,5,3,5,3,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,6 a 10,Nao
+SBBR,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,3,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Outros,4 a 5,Nao
+SBSG,Domestico,Azul,Nenhuma,5,4,5,4,4,4,4,2,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,6 a 10,Nao
+SBSV,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Outros,2 a 3,Sim
+SBSV,Domestico,Gol,Nenhuma,4,5,5,5,5,4,5,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Sim
+SBRF,Domestico,Latam,Nenhuma,5,5,5,5,3,5,3,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Nao
+SBFL,Domestico,Gol,Nenhuma,5,5,5,5,4,5,4,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Sim
+SBSV,Domestico,Azul,Nenhuma,4,3,5,4,4,3,2,2,4,4,5,3,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,Gol,Nenhuma,4,4,5,5,4,4,5,5,5,4,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Sim
+SBCT,Domestico,Azul,Nenhuma,4,4,4,4,4,4,4,4,4,4,4,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Ate 1 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Gol,Nenhuma,4,3,4,3,3,4,3,3,3,3,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Azul,Nenhuma,4,4,3,4,3,5,1,4,4,5,5,2,Brasileira,Feminino,18 a 25 anos,Mestrado,Mais de 20 sm,Sim,Lazer,6 a 10,Sim
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,1,4,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGR,Internacional,Swiss,Nenhuma,4,1,4,2,4,4,3,4,5,4,3,3,Brasileira,Feminino,56 a 65 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Sim
+SBSP,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Doutorado,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBCT,Domestico,Latam,Nenhuma,4,4,5,5,5,4,3,3,4,4,4,4,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Azul,Nenhuma,5,3,4,5,5,4,4,5,5,4,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino fundamental,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,4,4,1,3,4,3,3,5,3,5,4,3,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,4,5,5,4,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBEG,Domestico,Latam,Nenhuma,5,3,4,5,4,5,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Outros,2 a 3,Sim
+SBRF,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Outros,2 a 3,Nao
+SBKP,Domestico,Azul,Nenhuma,5,2,4,4,3,2,4,3,3,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,5,4,5,5,5,5,3,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,Azul,Nenhuma,1,3,5,5,5,5,5,5,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBCF,Internacional,Tap,Nenhuma,4,3,3,4,2,4,3,4,2,4,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,Azul,Nenhuma,4,5,4,4,1,4,2,5,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBFZ,Domestico,Azul,Nenhuma,5,5,4,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,4 a 5,Sim
+SBCY,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,1 (Primeira viagem),Sim
+SBCY,Domestico,Azul,Nenhuma,4,4,4,5,3,4,4,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Outros,1 (Primeira viagem),Sim
+SBKP,Domestico,Azul,Nenhuma,5,4,5,4,5,5,4,4,2,4,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Ate 1 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBCT,Domestico,Azul,Nenhuma,4,3,4,4,3,4,4,5,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,Azul,Nenhuma,5,5,4,4,4,5,4,4,5,4,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,3,5,5,4,5,5,3,4,4,5,4,Brasileira,Feminino,36 a 45 anos,Doutorado,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBFZ,Domestico,Azul,Nenhuma,5,4,5,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBKP,Internacional,Azul,Nenhuma,4,4,5,5,3,3,4,4,3,4,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBKP,Internacional,Azul,Nenhuma,4,4,5,5,2,3,4,2,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,4,3,4,5,3,4,3,4,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Prefiro nao informar,Sim,Lazer e Trabalho,4 a 5,Sim
+SBCY,Domestico,Latam,Nenhuma,4,1,4,4,4,4,4,4,2,5,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,Latam,Nenhuma,5,5,5,5,3,5,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,Gol,Nenhuma,5,4,4,5,3,5,4,5,4,5,5,5,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 1 e 2 sm,Sim,Outros,2 a 3,Nao
+SBKP,Internacional,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Mestrado,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBSG,Internacional,Tap,Nenhuma,5,5,5,5,4,5,5,5,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBSP,Domestico,Gol,Nenhuma,4,1,5,5,4,4,3,3,5,3,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Sim
+SBVT,Domestico,Latam,Nenhuma,5,4,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,3,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,4,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBEG,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,5,3,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 1 e 2 sm,Nao,Outros,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Estrangeira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,4,5,4,5,4,4,5,5,5,3,5,5,Brasileira,Masculino,46 a 55 anos,Ensino fundamental,Prefiro nao informar,Sim,Lazer e Trabalho,2 a 3,Nao
+SBCF,Domestico,Latam,Nenhuma,4,3,3,5,1,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer e Trabalho,4 a 5,Sim
+SBRJ,Domestico,Gol,Nenhuma,3,4,4,4,3,3,2,2,4,3,4,3,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Lazer,Mais de 11,Sim
+SBCF,Internacional,Tap,Nenhuma,5,4,4,4,4,4,5,4,4,4,4,4,Brasileira,Feminino,56 a 65 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,Lufthansa,Nenhuma,4,4,4,4,4,4,4,4,4,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,Gol,Nenhuma,5,4,4,4,5,4,5,5,4,4,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,4,4,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Latam,Nenhuma,5,3,5,5,4,4,2,2,3,4,5,3,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 2 e 4 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBGL,Internacional,Air France,Nenhuma,5,3,3,4,4,3,4,5,5,4,4,5,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBGL,Internacional,Air France,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Estrangeira,Feminino,18 a 25 anos,Mestrado,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Latam,Nenhuma,5,5,5,5,5,5,1,1,1,3,5,2,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Trabalho,4 a 5,Sim
+SBGL,Domestico,Latam,Nenhuma,5,5,4,5,3,4,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBSG,Internacional,Tap,Nenhuma,4,4,3,4,1,4,3,2,5,4,5,3,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,6 a 10,Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBRF,Domestico,Latam,Nenhuma,5,3,4,5,5,4,3,4,3,4,2,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 10 e 20 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,5,3,4,2,3,3,3,2,4,4,3,3,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBGL,Domestico,Gol,Nenhuma,5,4,4,5,5,5,5,5,4,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino fundamental,Entre 1 e 2 sm,Sim,Lazer,6 a 10,Sim
+SBRJ,Domestico,Gol,Nenhuma,4,2,5,5,4,3,5,5,1,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBCF,Internacional,Tap,Nenhuma,4,1,3,4,4,5,4,5,4,2,4,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,4,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBSG,Internacional,Tap,Nenhuma,5,5,5,4,4,5,5,4,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBSV,Domestico,Latam,Nenhuma,4,4,4,4,4,4,5,3,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Internacional,Tap,Nenhuma,4,4,4,4,4,4,4,1,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,2 a 3,Nao
+SBGR,Internacional,Lufthansa,Nenhuma,5,3,5,4,5,5,4,3,5,3,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBCY,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer e Trabalho,6 a 10,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,5,4,4,4,4,4,5,4,4,4,5,Brasileira,Masculino,46 a 55 anos,Ensino fundamental,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBGR,Domestico,Latam,Nenhuma,5,1,5,1,4,5,4,3,4,3,5,3,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,Gol,Nenhuma,4,4,4,4,4,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,2,2,4,1,3,3,2,3,5,2,2,3,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,Mais de 11,Sim
+SBFL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,4,5,3,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCF,Domestico,Gol,Nenhuma,4,4,3,4,4,4,4,1,4,1,4,3,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Outros,Mais de 11,Sim
+SBCF,Domestico,Gol,Nenhuma,4,4,3,5,5,5,4,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBCF,Domestico,Azul,Nenhuma,5,4,5,4,3,4,4,5,5,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Trabalho,6 a 10,Nao
+SBFL,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBFL,Domestico,Gol,Nenhuma,5,5,4,4,3,4,4,4,5,5,4,4,Brasileira,Masculino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBEG,Domestico,Latam,Nenhuma,5,5,5,5,5,4,4,4,4,5,4,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer e Trabalho,2 a 3,Nao
+SBRJ,Domestico,Gol,Nenhuma,2,3,3,4,4,4,3,1,1,3,5,2,Brasileira,Masculino,56 a 65 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,2 a 3,Sim
+SBGL,Domestico,Gol,Nenhuma,4,4,4,5,4,4,5,3,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBPA,Domestico,Azul,Nenhuma,5,3,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBCY,Domestico,Azul,Nenhuma,4,4,5,4,4,3,3,4,5,2,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,5,2,5,4,4,4,2,1,3,4,4,3,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBCY,Domestico,Latam,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBCY,Domestico,Latam,Nenhuma,5,1,5,5,4,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBCY,Domestico,Latam,Nenhuma,4,4,3,5,4,4,4,3,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Outros,6 a 10,Sim
+SBCT,Domestico,Gol,Nenhuma,5,3,4,5,4,5,5,5,4,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBSG,Domestico,Latam,Nenhuma,5,5,5,4,1,5,4,5,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRF,Domestico,Azul,Nenhuma,5,4,5,5,5,4,5,4,4,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Ate 1 sm,Sim,Lazer,2 a 3,Sim
+SBCY,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,4,4,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,1,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBGL,Domestico,Gol,Nenhuma,5,4,2,4,5,4,5,3,5,5,4,5,Brasileira,Feminino,26 a 35 anos,Doutorado,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBGL,Domestico,Gol,Nenhuma,5,5,4,5,5,5,5,3,5,4,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBCT,Domestico,Azul,Nenhuma,5,4,5,5,4,5,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,Mais de 11,Sim
+SBGO,Domestico,Azul,Nenhuma,5,4,5,5,4,5,5,5,5,4,4,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,2 a 3,Sim
+SBCT,Domestico,Azul,Nenhuma,5,4,5,4,4,4,4,5,3,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,4,4,5,4,4,4,4,4,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,4,5,4,3,3,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBVT,Domestico,Gol,Nenhuma,3,1,2,5,5,5,4,1,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Nao
+SBSG,Domestico,Latam,Nenhuma,1,1,5,5,1,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,2,5,5,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBRF,Domestico,Gol,Nenhuma,4,4,4,4,5,4,5,3,4,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,4 a 5,Sim
+SBFZ,Domestico,Gol,Nenhuma,4,4,4,4,4,4,3,4,4,3,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,4,4,5,4,4,5,5,5,5,5,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBRJ,Domestico,Azul,Nenhuma,5,5,3,4,4,5,5,4,1,5,5,5,Brasileira,Feminino,36 a 45 anos,Doutorado,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBBR,Domestico,Latam,Nenhuma,4,4,4,5,5,4,4,4,2,4,4,5,Brasileira,Masculino,36 a 45 anos,Doutorado,Entre 10 e 20 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,3,5,4,4,5,5,5,3,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Lazer,6 a 10,Sim
+SBPA,Internacional,Azul,Nenhuma,5,3,4,5,4,5,4,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBCF,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBSG,Domestico,Gol,Nenhuma,5,5,4,5,5,5,5,5,1,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,5,4,4,5,3,5,5,4,3,5,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,5,4,5,4,4,4,4,4,4,2,3,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBGL,Internacional,Tap,Nenhuma,4,2,4,4,5,4,3,4,4,5,4,4,Estrangeira,Feminino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer,Mais de 11,Sim
+SBRF,Domestico,Gol,Nenhuma,4,4,4,4,4,5,4,3,5,5,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBRF,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBFL,Domestico,Latam,Nenhuma,5,4,4,5,1,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBRF,Domestico,Azul,Nenhuma,4,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Doutorado,Mais de 20 sm,Nao,Lazer,2 a 3,Nao
+SBVT,Domestico,Azul,Nenhuma,4,3,3,5,5,4,4,4,4,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBGO,Domestico,Azul,Nenhuma,4,4,5,5,4,5,4,4,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBBR,Domestico,Gol,Nenhuma,5,5,5,4,4,5,4,3,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBBR,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,4,4,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Outros,2 a 3,Sim
+SBSP,Domestico,Gol,Nenhuma,5,5,5,5,5,4,5,4,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,4,5,3,4,4,Brasileira,Masculino,36 a 45 anos,Doutorado,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,Azul,Nenhuma,5,4,5,5,4,5,5,4,4,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Outros,4 a 5,Sim
+SBRF,Domestico,Azul,Nenhuma,4,4,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Nao
+SBMO,Domestico,Gol,Deficiencia Fisica / Motora,4,4,4,4,4,4,4,3,4,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGO,Domestico,Latam,Nenhuma,5,3,5,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBVT,Domestico,Gol,Nenhuma,3,3,3,5,4,5,4,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer e Trabalho,4 a 5,Nao
+SBBR,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Outros,2 a 3,Sim
+SBBR,Domestico,Latam,Nenhuma,4,4,4,4,5,2,5,2,4,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBRJ,Domestico,Gol,Nenhuma,3,2,5,4,2,4,3,4,1,5,5,3,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,5,5,4,5,5,5,5,5,5,5,5,Brasileira,Feminino,Mais de 65 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBCF,Domestico,Gol,Nenhuma,5,5,4,2,3,5,4,5,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Ensino fundamental,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBVT,Domestico,Azul,Nenhuma,4,2,3,5,4,5,4,3,5,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,4,5,5,3,5,3,5,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Outros,2 a 3,Sim
+SBEG,Domestico,voepass,Nenhuma,4,4,5,5,5,5,5,2,1,5,5,3,Brasileira,Masculino,46 a 55 anos,Ensino fundamental,Entre 2 e 4 sm,Sim,Outros,1 (Primeira viagem),Sim
+SBFZ,Domestico,Gol,Nenhuma,5,5,5,4,5,5,5,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Outros,2 a 3,Sim
+SBFZ,Domestico,Gol,Nenhuma,4,5,4,4,4,4,4,4,5,4,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Outros,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,3,5,4,4,5,4,4,3,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBSV,Domestico,Latam,Nenhuma,4,5,5,4,5,4,4,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Trabalho,Mais de 11,Sim
+SBPA,Domestico,Gol,Nenhuma,5,5,1,5,5,5,5,5,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBGL,Internacional,Tap,Nenhuma,4,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,4,4,5,4,3,5,3,4,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino fundamental,Entre 1 e 2 sm,Nao,Outros,1 (Primeira viagem),Sim
+SBCF,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,1,5,5,5,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 10 e 20 sm,Sim,Outros,2 a 3,Nao
+SBGL,Domestico,Latam,Nenhuma,4,4,5,4,4,4,4,5,5,1,3,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,Tap,Nenhuma,5,5,5,5,3,4,5,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,1,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,4,5,4,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBSV,Domestico,Latam,Nenhuma,4,4,4,4,3,4,3,2,4,5,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBCT,Internacional,Aerolíneas Argentinas,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Estrangeira,Feminino,Mais de 65 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,5,5,4,3,3,2,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBGL,Domestico,Gol,Nenhuma,5,4,5,5,4,4,4,1,1,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBBR,Domestico,Latam,Nenhuma,5,4,5,5,5,5,5,3,4,3,5,4,Brasileira,Masculino,56 a 65 anos,Superior,Mais de 20 sm,Sim,Trabalho,6 a 10,Sim
+SBFL,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Outros,4 a 5,Sim
+SBSV,Domestico,Latam,Nenhuma,4,5,5,5,3,5,5,3,5,4,5,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Azul,Nenhuma,1,5,5,5,1,5,2,5,1,5,5,1,Brasileira,Masculino,Mais de 65 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Sim
+SBGL,Domestico,Gol,Nenhuma,5,4,5,5,5,2,4,5,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,Azul,Nenhuma,5,5,5,5,2,3,5,2,5,5,5,3,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Nao,Lazer e Trabalho,2 a 3,Nao
+SBCT,Domestico,Azul,Nenhuma,5,5,5,5,3,5,4,5,4,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Internacional,Tap,Nenhuma,5,5,4,5,5,5,4,4,4,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBFZ,Internacional,Tap,Nenhuma,5,4,2,4,3,4,4,4,5,3,4,4,Estrangeira,Masculino,46 a 55 anos,Superior,Entre 2 e 4 sm,Sim,Outros,2 a 3,Sim
+SBGR,Internacional,aeromexicoaeromexico,Nenhuma,5,4,5,4,3,4,4,4,5,4,4,4,Estrangeira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,Latam,Nenhuma,4,1,3,4,2,3,3,3,4,3,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCF,Domestico,Latam,Nenhuma,5,5,5,4,4,4,5,4,4,4,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBKP,Domestico,Azul,Nenhuma,4,4,4,4,4,4,4,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Trabalho,4 a 5,Sim
+SBCF,Internacional,Tap,Nenhuma,4,4,4,4,4,4,4,4,5,4,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer e Trabalho,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,5,3,5,4,5,5,5,5,1,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Nao
+SBGR,Domestico,Gol,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,2 a 3,Sim
+SBFZ,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBPA,Internacional,Azul,Nenhuma,4,4,5,5,5,5,5,3,5,5,5,5,Estrangeira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBRF,Domestico,Azul,Nenhuma,4,4,5,4,4,4,3,4,5,4,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Nao,Trabalho,6 a 10,Sim
+SBRF,Internacional,Tap,Nenhuma,5,5,5,4,5,5,5,4,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSG,Internacional,Tap,Nenhuma,5,4,5,5,5,5,5,2,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,4 a 5,Nao
+SBCY,Domestico,Azul,Nenhuma,5,2,4,4,3,5,4,4,3,3,5,4,Brasileira,Masculino,18 a 25 anos,Mestrado,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBGL,Domestico,Latam,Nenhuma,5,3,4,4,4,3,4,3,5,2,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,4,4,4,4,4,5,4,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Sim,Lazer,2 a 3,Nao
+SBKP,Domestico,Gol,Nenhuma,5,5,5,5,5,1,5,5,4,2,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,4 a 5,Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,4,4,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,4,5,5,5,5,2,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Ensino fundamental,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGR,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,3,5,4,5,5,2,4,4,Brasileira,Masculino,56 a 65 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Gol,Nenhuma,4,4,5,4,3,4,4,4,5,4,4,4,Brasileira,Masculino,56 a 65 anos,Ensino fundamental,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBFZ,Domestico,Latam,Nenhuma,4,4,4,4,3,3,4,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,4,4,4,4,4,1,4,1,1,4,5,3,Brasileira,Masculino,46 a 55 anos,Ensino medio,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBGR,Domestico,Gol,Nenhuma,5,4,5,5,4,4,4,4,4,4,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBSV,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBGL,Domestico,Latam,Nenhuma,5,5,4,5,4,4,5,4,3,5,5,4,Brasileira,Feminino,26 a 35 anos,Mestrado,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBMO,Domestico,Latam,Nenhuma,5,3,5,5,5,5,3,5,5,4,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,6 a 10,Nao
+SBCT,Domestico,Azul,Nenhuma,5,5,4,5,3,5,4,5,4,5,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBGR,Domestico,Gol,Nenhuma,5,4,5,5,5,5,4,2,5,3,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Outros,4 a 5,Sim
+SBGL,Internacional,Tap,Nenhuma,5,3,5,5,4,4,4,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Nao
+SBCF,Internacional,Tap,Nenhuma,4,2,4,4,4,4,4,4,3,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,Latam,Nenhuma,5,5,4,5,5,5,5,4,5,5,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Sim
+SBCY,Domestico,Latam,Nenhuma,4,3,5,5,4,4,4,4,1,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Gol,Nenhuma,5,5,5,4,5,5,5,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Nao
+SBFL,Domestico,Gol,Nenhuma,5,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Nao
+SBCT,Domestico,Latam,Nenhuma,4,5,4,5,4,5,4,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBCF,Domestico,Latam,Nenhuma,5,5,4,5,5,3,4,4,5,4,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBGL,Domestico,Gol,Nenhuma,3,4,4,4,4,2,3,2,4,4,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,2,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBSV,Domestico,Gol,Nenhuma,5,4,5,4,4,5,5,3,4,4,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBEG,Domestico,Azul,Nenhuma,5,4,5,4,3,5,4,3,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,6 a 10,Sim
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,3,5,4,5,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBBR,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Outros,4 a 5,Nao
+SBFZ,Domestico,Gol,Nenhuma,4,4,3,5,3,4,3,4,4,3,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGR,Internacional,aeromexico,Nenhuma,5,4,5,3,4,5,3,4,5,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,2,3,5,5,4,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 2 e 4 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBFL,Domestico,Gol,Nenhuma,5,4,4,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Sim
+SBGR,Internacional,Air Europa,Nenhuma,4,3,4,4,4,5,4,2,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBFL,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,1,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Outros,6 a 10,Nao
+SBMO,Domestico,Gol,Nenhuma,4,3,4,5,2,5,4,3,5,4,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBBE,Domestico,Azul,Nenhuma,5,3,5,5,4,4,3,5,5,4,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGL,Internacional,Tap,Nenhuma,4,4,3,3,4,2,5,5,4,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBSG,Domestico,Latam,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBBR,Internacional,Tap,Nenhuma,4,5,4,5,4,5,4,3,4,5,5,4,Estrangeira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,4,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,Mais de 11,Nao
+SBGO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Outros,2 a 3,Nao
+SBGL,Domestico,Latam,Nenhuma,5,5,5,5,5,4,5,2,5,3,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,Gol,Nenhuma,4,3,4,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBBR,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Trabalho,1 (Primeira viagem),Nao
+SBSP,Domestico,Gol,Nenhuma,5,5,4,5,5,5,4,4,4,4,3,4,Brasileira,Feminino,46 a 55 anos,Ensino fundamental,Mais de 20 sm,Sim,Lazer,6 a 10,Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,4,5,5,5,5,5,5,4,4,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBCT,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino fundamental,Entre 1 e 2 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBCT,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Ensino medio,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBRF,Domestico,Azul,Nenhuma,4,5,5,5,3,5,5,2,5,1,4,3,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBSG,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,3,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBBE,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Outros,2 a 3,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,4,4,4,2,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,Mais de 11,Sim
+SBEG,Domestico,Azul,Nenhuma,5,4,5,4,3,4,3,4,1,4,5,4,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBFZ,Domestico,Latam,Nenhuma,3,4,5,5,5,3,5,2,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,4,2,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBPA,Domestico,Latam,Nenhuma,4,5,4,5,4,4,4,3,4,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBBR,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,6 a 10,Nao
+SBMO,Domestico,Latam,Nenhuma,5,1,2,4,3,4,4,3,5,5,5,3,Estrangeira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer e Trabalho,4 a 5,Nao
+SBPA,Internacional,Aerolíneas Argentinas,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBKP,Internacional,Azul,Nenhuma,5,5,5,3,4,5,5,5,5,4,4,5,Brasileira,Feminino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBCY,Domestico,Latam,Nenhuma,5,5,4,5,4,4,4,5,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBEG,Domestico,Gol,Nenhuma,4,4,4,4,3,4,4,4,3,4,3,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,Latam,Nenhuma,4,4,4,4,4,4,4,4,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,4 a 5,Sim
+SBCT,Internacional,Aerolíneas Argentinas,Nenhuma,5,5,5,4,4,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,Azul,Nenhuma,5,4,5,5,5,5,5,5,5,3,5,5,Brasileira,Masculino,46 a 55 anos,Mestrado,Mais de 20 sm,Sim,Lazer,2 a 3,Sim
+SBMO,Domestico,Gol,Nenhuma,2,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Trabalho,Mais de 11,Nao
+SBFZ,Domestico,Gol,Nenhuma,5,5,5,5,5,5,3,3,5,3,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCF,Internacional,Tap,Nenhuma,5,4,4,4,5,3,5,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRF,Internacional,Tap,Nenhuma,5,3,5,4,4,5,4,3,5,3,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Internacional,Tap,Nenhuma,5,5,5,5,5,5,4,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,5,3,4,5,3,5,5,4,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Sim
+SBSP,Domestico,Gol,Nenhuma,5,5,5,5,3,5,4,3,3,4,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBVT,Domestico,Azul,Nenhuma,5,5,4,5,1,5,4,4,4,4,5,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBCF,Domestico,Azul,Nenhuma,5,4,4,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,2 a 3,Sim
+SBCF,Domestico,Gol,Nenhuma,4,4,5,5,5,5,5,5,5,4,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBFZ,Domestico,Azul,Nenhuma,5,4,5,5,4,5,5,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,Tap,Nenhuma,5,5,5,4,5,4,5,4,5,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,6 a 10,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,5,3,5,5,5,4,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBFL,Domestico,Azul,Nenhuma,4,4,4,5,3,5,4,3,5,2,4,3,Brasileira,Feminino,46 a 55 anos,Superior,Mais de 20 sm,Nao,Lazer,6 a 10,Sim
+SBGR,Domestico,Latam,Nenhuma,4,4,4,4,4,3,3,2,2,3,4,4,Brasileira,Feminino,46 a 55 anos,Mestrado,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBGL,Domestico,Gol,Nenhuma,5,3,4,5,4,4,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,Tap,Nenhuma,5,5,4,5,5,4,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Estrangeira,Masculino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,3,1,1,5,5,5,3,5,3,3,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Mais de 20 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,4,5,3,4,5,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Trabalho,6 a 10,Sim
+SBMO,Domestico,Passaredo,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Latam,Nenhuma,4,3,4,4,3,2,4,4,4,1,3,3,Brasileira,Feminino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Lazer,4 a 5,Nao
+SBGR,Internacional,aeromexico,Nenhuma,4,1,4,4,4,4,3,2,1,4,4,3,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Sim
+SBSV,Domestico,Azul,Nenhuma,5,5,4,5,5,4,4,5,5,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Sim
+SBRJ,Domestico,Latam,Nenhuma,3,3,5,5,5,4,5,3,5,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBKP,Domestico,Azul,Nenhuma,5,3,5,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBGL,Internacional,Tap,Nenhuma,5,1,3,3,3,4,5,1,1,5,5,3,Brasileira,Feminino,46 a 55 anos,Doutorado,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBGO,Domestico,Gol,Nenhuma,5,2,2,5,3,5,4,3,5,4,4,3,Estrangeira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBSG,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,4 a 5,Nao
+SBFL,Domestico,Azul,Nenhuma,4,1,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBFL,Domestico,Azul,Nenhuma,5,3,5,4,3,4,5,4,5,4,4,4,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Outros,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,5,4,4,3,5,5,5,3,3,5,5,4,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 10 e 20 sm,Nao,Outros,2 a 3,Sim
+SBFZ,Domestico,Latam,Nenhuma,5,5,4,5,5,5,5,5,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Internacional,Tap,Nenhuma,4,4,4,4,4,4,4,3,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Nao
+SBSV,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,3,5,5,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBRF,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,2,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Sim
+SBGO,Domestico,Gol,Nenhuma,5,5,5,5,2,5,5,2,2,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Nao
+SBGO,Domestico,Latam,Nenhuma,5,4,2,5,3,4,5,2,5,5,5,3,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Nao
+SBRJ,Domestico,Gol,Nenhuma,2,4,3,4,5,4,2,1,1,2,2,2,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Trabalho,Mais de 11,Sim
+SBCY,Domestico,Latam,Nenhuma,4,4,4,5,4,5,5,5,4,5,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Outros,6 a 10,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,4,4,5,5,5,5,5,4,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,2 a 3,Sim
+SBGL,Internacional,Tap,Nenhuma,3,2,4,4,5,4,4,3,4,5,5,4,Estrangeira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Nao
+SBBE,Domestico,Latam,Nenhuma,4,3,5,5,3,5,4,4,4,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,4,5,5,5,2,5,5,5,5,5,Estrangeira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Gol,Nenhuma,4,4,3,4,4,4,4,5,5,5,5,5,Estrangeira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBFZ,Domestico,Azul,Nenhuma,4,4,5,4,4,4,4,5,5,3,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,Gol,Nenhuma,4,4,3,4,5,4,4,4,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBGR,Domestico,Gol,Nenhuma,5,4,5,5,5,5,3,3,5,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBRF,Domestico,Gol,Nenhuma,4,4,5,5,4,3,5,3,5,4,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBRF,Internacional,Tap,Nenhuma,5,4,5,5,5,5,4,3,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Sim
+SBSG,Domestico,Azul,Nenhuma,4,4,4,4,2,4,5,5,5,5,5,2,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBCF,Internacional,Tap,Nenhuma,3,3,4,4,3,1,2,2,3,3,4,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Latam,Nenhuma,4,2,5,4,3,5,3,4,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBSV,Domestico,Gol,Nenhuma,5,4,5,5,4,4,4,3,4,3,4,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBBE,Domestico,Latam,Nenhuma,5,5,5,5,5,4,4,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBCF,Domestico,Azul,Nenhuma,4,4,4,4,4,4,4,3,4,4,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBGL,Internacional,Tap,Nenhuma,4,4,4,4,3,4,4,4,4,4,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,3,5,3,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Gol,Nenhuma,4,4,4,4,4,4,4,3,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Prefiro nao informar,Sim,Trabalho,4 a 5,Sim
+SBFL,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBFL,Domestico,Azul,Nenhuma,4,1,5,4,4,5,4,5,4,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Lazer e Trabalho,Mais de 11,Sim
+SBGL,Internacional,Tap,Nenhuma,4,4,4,5,3,5,5,4,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,6 a 10,Nao
+SBGL,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBGL,Internacional,Latam,Nenhuma,5,4,4,4,4,4,4,4,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Trabalho,2 a 3,Nao
+SBFZ,Internacional,Tap,Nenhuma,5,5,4,5,3,5,4,4,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,4,4,5,4,4,4,5,5,5,4,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,5,5,5,5,5,2,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBGO,Domestico,Latam,Deficiencia Fisica / Motora,5,4,5,5,4,5,4,4,5,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Nao
+SBCY,Domestico,Gol,Nenhuma,4,3,4,4,3,4,3,4,4,5,5,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,6 a 10,Sim
+SBRJ,Domestico,Latam,Nenhuma,5,3,2,5,5,5,5,4,3,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBRF,Internacional,Tap,Nenhuma,4,3,4,4,4,5,4,5,5,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Outros,Mais de 11,Nao
+SBCY,Domestico,Latam,Nenhuma,5,4,5,4,5,5,4,5,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBGL,Domestico,Gol,Nenhuma,5,3,3,5,4,2,4,2,5,3,3,3,Brasileira,Masculino,46 a 55 anos,Mestrado,Mais de 20 sm,Sim,Trabalho,6 a 10,Sim
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Outros,1 (Primeira viagem),Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Outros,6 a 10,Sim
+SBBR,Internacional,Tap,Nenhuma,5,4,4,5,4,3,2,1,5,2,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBBR,Internacional,Tap,Nenhuma,4,5,5,5,3,4,5,2,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,5,5,5,5,4,5,3,4,3,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBSV,Domestico,Azul,Nenhuma,4,4,4,4,4,5,4,2,4,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBFL,Domestico,Azul,Nenhuma,5,2,5,5,4,5,4,4,1,4,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Outros,Mais de 11,Sim
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,4,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,4,4,3,5,4,4,4,4,4,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,3,3,4,5,5,2,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Mestrado,Ate 1 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBGL,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,Latam,Nenhuma,3,3,3,5,2,3,3,2,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Sim
+SBGO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 10 e 20 sm,Nao,Lazer,Mais de 11,Sim
+SBSV,Domestico,Azul,Nenhuma,5,5,5,4,5,5,4,5,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,2 a 3,Sim
+SBEG,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 1 e 2 sm,Sim,Outros,2 a 3,Sim
+SBEG,Domestico,Azul,Nenhuma,5,4,5,5,5,5,5,3,5,5,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBCF,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,Gol,Nenhuma,4,4,4,4,4,5,4,4,5,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Nao
+SBBR,Domestico,Gol,Nenhuma,5,4,5,5,3,4,5,4,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBBE,Domestico,Latam,Nenhuma,5,4,5,5,5,5,4,5,4,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBGL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,3,3,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 4 e 10 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBGL,Domestico,Azul,Nenhuma,5,5,5,5,5,4,5,1,4,3,3,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBGL,Internacional,flybondi,Nenhuma,3,3,5,4,5,5,4,4,2,4,3,4,Brasileira,Feminino,46 a 55 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBGR,Internacional,Air Europa,Nenhuma,3,4,5,4,4,4,4,1,4,4,4,3,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,4,5,3,5,5,5,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,1,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Sim
+SBFL,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Outros,1 (Primeira viagem),Sim
+SBCF,Domestico,Gol,Nenhuma,3,4,4,4,5,5,4,3,5,3,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBCF,Internacional,Tap,Nenhuma,4,4,4,4,4,4,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRF,Domestico,Azul,Nenhuma,5,5,5,5,5,5,4,5,5,3,4,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,4,4,4,5,2,5,5,4,4,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Latam,Nenhuma,5,4,5,5,5,4,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBSV,Domestico,Azul,Nenhuma,4,4,3,4,3,4,3,3,4,3,4,3,Brasileira,Masculino,26 a 35 anos,Superior,Mais de 20 sm,Nao,Lazer,4 a 5,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,4,5,5,5,5,5,3,5,5,4,5,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBVT,Domestico,Azul,Nenhuma,5,3,4,4,4,5,4,4,3,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBGL,Internacional,Tap,Nenhuma,4,5,2,4,4,4,5,4,3,5,4,3,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBGL,Internacional,Tap,Nenhuma,4,5,5,5,4,4,3,4,3,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBCF,Domestico,Latam,Nenhuma,5,5,5,5,4,4,5,4,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBCF,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBBR,Domestico,Gol,Nenhuma,4,5,5,5,4,5,4,3,5,4,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBSP,Domestico,Gol,Nenhuma,4,4,5,5,5,4,5,3,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Nao,Lazer,4 a 5,Nao
+SBGR,Internacional,Air Europa,Nenhuma,4,4,3,4,5,5,2,2,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBGL,Domestico,Gol,Nenhuma,4,3,5,4,5,4,4,4,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBSG,Internacional,Tap,Nenhuma,4,5,5,4,5,5,5,4,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,5,5,5,5,4,5,4,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBGR,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,Azul,Nenhuma,4,3,4,4,4,4,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBKP,Domestico,Azul,Nenhuma,4,4,4,4,5,4,4,5,5,5,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBCF,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,3,4,5,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Azul,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Latam,Nenhuma,5,4,5,5,5,5,5,5,5,5,4,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Outros,6 a 10,Sim
+SBBR,Domestico,Latam,Nenhuma,5,4,5,5,4,5,5,5,4,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBVT,Domestico,Latam,Nenhuma,4,4,4,4,4,5,4,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,2,2,4,3,5,3,3,4,4,4,3,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBPA,Domestico,Latam,Nenhuma,5,5,5,4,4,1,5,5,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,Azul,Nenhuma,5,4,5,5,3,4,4,4,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Sim
+SBBE,Domestico,Gol,Nenhuma,5,4,3,5,5,5,3,4,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Outros,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,4,5,5,5,5,4,3,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBBE,Domestico,Azul,Nenhuma,5,4,5,5,4,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Nao
+SBRF,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRF,Internacional,Tap,Nenhuma,5,3,5,5,4,5,3,1,1,3,5,5,Brasileira,Masculino,18 a 25 anos,Ensino fundamental,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBSV,Domestico,Gol,Nenhuma,4,4,3,3,3,4,4,4,4,4,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Nao,Outros,2 a 3,Sim
+SBSG,Domestico,Latam,Nenhuma,5,1,4,5,3,5,5,5,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Mestrado,Prefiro nao informar,Nao,Lazer,6 a 10,Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,2,5,5,5,5,5,3,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBVT,Domestico,Latam,Nenhuma,4,4,4,5,4,5,4,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBGL,Internacional,Tap,Nenhuma,5,3,5,5,4,5,5,3,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBBE,Domestico,Latam,Nenhuma,4,3,5,3,4,4,4,3,4,4,4,3,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,Gol,Nenhuma,3,4,4,4,5,4,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,Azul,Nenhuma,5,4,5,4,3,3,5,4,1,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,3,5,5,3,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Gol,Nenhuma,5,5,3,3,5,5,3,2,5,2,5,4,Brasileira,Masculino,56 a 65 anos,Mestrado,Mais de 20 sm,Sim,Lazer,6 a 10,Sim
+SBVT,Domestico,Latam,Nenhuma,5,5,5,4,4,5,5,5,5,4,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Nao
+SBFL,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,5,5,5,4,5,4,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,2 a 3,Sim
+SBGR,Internacional,Air Europa,Nenhuma,5,4,5,5,4,5,4,4,4,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBEG,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,3,5,3,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,4,4,4,5,5,3,4,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Nao
+SBGL,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Azul,Nenhuma,5,4,4,4,4,4,4,4,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,5,4,4,4,5,5,3,4,4,4,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,2 a 3,Nao
+SBVT,Domestico,Azul,Nenhuma,3,3,5,5,5,5,3,5,2,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBVT,Domestico,Azul,Nenhuma,5,4,5,5,5,3,5,5,5,5,5,5,Brasileira,Masculino,Mais de 65 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,Aerolíneas Argentinas,Nenhuma,5,5,5,5,4,5,5,3,5,5,5,5,Estrangeira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,Aerolíneas Argentinas,Nenhuma,5,4,5,3,5,5,4,5,5,3,4,4,Estrangeira,Masculino,46 a 55 anos,Mestrado,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBGL,Internacional,Air France,Nenhuma,5,5,5,5,5,3,5,5,4,5,5,4,Estrangeira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBRF,Internacional,Tap,Nenhuma,4,5,5,5,5,4,4,4,5,3,4,5,Brasileira,Masculino,18 a 25 anos,Superior,Mais de 20 sm,Sim,Lazer,4 a 5,Sim
+SBRF,Internacional,Tap,Nenhuma,5,3,5,5,4,4,4,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBRF,Internacional,Tap,Nenhuma,5,3,5,4,5,4,4,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Doutorado,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBEG,Domestico,Azul,Nenhuma,5,3,4,4,4,2,3,3,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBFZ,Domestico,Latam,Nenhuma,5,4,4,4,5,4,5,4,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Sim
+SBRJ,Domestico,Latam,Nenhuma,4,3,4,5,5,5,4,3,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,6 a 10,Nao
+SBGL,Domestico,Gol,Nenhuma,4,4,4,4,4,3,3,3,3,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Sim
+SBSV,Domestico,Gol,Nenhuma,4,5,5,5,5,5,5,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGL,Internacional,Tap,Nenhuma,5,1,4,4,4,5,4,5,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,5,5,4,5,2,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBSP,Domestico,Gol,Nenhuma,3,4,5,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,3,5,4,5,4,3,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Nao
+SBRF,Domestico,Gol,Nenhuma,3,3,4,4,3,1,2,2,1,1,3,3,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBVT,Domestico,Azul,Nenhuma,5,4,3,3,4,4,4,3,2,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Nao
+SBCF,Domestico,Gol,Nenhuma,4,4,4,4,5,4,5,5,5,4,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Sim
+SBSG,Internacional,Tap,Nenhuma,5,1,1,5,2,5,1,1,2,3,5,2,Brasileira,Masculino,18 a 25 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBEG,Domestico,Azul,Nenhuma,5,3,5,5,5,5,4,5,5,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBGL,Internacional,Sky Airlines,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Estrangeira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,1,5,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Sim
+SBSV,Domestico,Gol,Nenhuma,5,3,5,5,4,5,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBBE,Domestico,Gol,Nenhuma,5,5,5,5,5,5,4,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Internacional,Tap,Nenhuma,4,5,4,5,5,5,5,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer e Trabalho,1 (Primeira viagem),Sim
+SBBE,Domestico,Latam,Nenhuma,5,5,5,4,3,4,2,2,3,3,2,3,Brasileira,Feminino,36 a 45 anos,Mestrado,Entre 4 e 10 sm,Nao,Lazer,6 a 10,Sim
+SBFZ,Domestico,Gol,Nenhuma,3,4,5,5,3,4,4,3,4,3,4,4,Brasileira,Feminino,56 a 65 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBCF,Domestico,Latam,Nenhuma,5,3,5,5,5,4,5,4,5,4,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBGO,Domestico,Gol,Nenhuma,5,4,3,5,2,5,5,5,1,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Trabalho,Mais de 11,Nao
+SBSG,Domestico,Gol,Nenhuma,4,5,5,4,4,5,3,1,2,3,4,3,Estrangeira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,5,1,5,5,5,5,5,2,2,3,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Latam,Nenhuma,5,4,4,5,3,4,4,3,4,2,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBGR,Internacional,Air Europa,Nenhuma,5,5,4,4,4,5,3,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBGL,Domestico,Gol,Nenhuma,5,5,5,5,3,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 10 e 20 sm,Sim,Outros,2 a 3,Nao
+SBGL,Internacional,Sky Airlines,Nenhuma,4,4,4,4,3,4,4,3,5,3,4,4,Estrangeira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Latam,Nenhuma,4,5,5,4,4,5,5,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Doutorado,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBGR,Internacional,Aerolíneas Argentinas,Nenhuma,5,3,5,5,5,5,3,3,5,3,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBRF,Internacional,Tap,Nenhuma,4,4,3,5,5,4,4,3,4,3,4,4,Brasileira,Feminino,56 a 65 anos,Ensino medio,Prefiro nao informar,Sim,Outros,1 (Primeira viagem),Nao
+SBGL,Internacional,Copa Airlines,Nenhuma,4,4,5,2,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Trabalho,4 a 5,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,4,5,5,5,5,5,5,5,4,5,5,Brasileira,Masculino,Mais de 65 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Latam,Nenhuma,5,3,4,5,5,5,5,3,5,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Sim
+SBGL,Internacional,Tap,Nenhuma,4,4,4,4,2,4,4,4,4,3,4,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBRF,Domestico,Latam,Nenhuma,3,3,4,4,3,4,3,4,4,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Outros,4 a 5,Sim
+SBPA,Domestico,Gol,Nenhuma,5,3,5,5,5,5,5,5,5,4,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBFZ,Internacional,Tap,Nenhuma,5,4,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer e Trabalho,2 a 3,Nao
+SBPA,Domestico,Gol,Nenhuma,4,4,4,4,5,4,5,3,3,5,5,4,Brasileira,Masculino,36 a 45 anos,Doutorado,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBRF,Domestico,Azul,Nenhuma,3,4,5,4,5,4,4,5,4,5,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Outros,Mais de 11,Sim
+SBVT,Domestico,Azul,Nenhuma,4,4,3,4,4,4,4,4,4,4,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,Lufthansa,Nenhuma,4,5,4,4,2,4,4,4,5,5,5,3,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBRF,Domestico,Azul,Nenhuma,4,4,4,4,4,2,3,3,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,United Airlines,Nenhuma,1,3,4,5,5,4,3,4,4,4,3,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBVT,Domestico,Latam,Nenhuma,5,5,4,5,4,5,4,5,5,5,5,5,Estrangeira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Outros,2 a 3,Nao
+SBVT,Domestico,Azul,Nenhuma,4,4,4,2,4,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBFZ,Domestico,Latam,Nenhuma,5,5,5,5,1,5,5,4,5,3,4,4,Brasileira,Feminino,56 a 65 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBGL,Domestico,Latam,Nenhuma,4,5,5,4,4,4,5,3,4,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Sim
+SBGO,Domestico,Latam,Nenhuma,5,5,5,5,5,4,5,5,5,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBMO,Domestico,Latam,Nenhuma,5,3,3,5,3,5,4,3,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,Air France,Nenhuma,5,2,5,5,4,5,5,5,3,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Sim
+SBKP,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,KLM,Nenhuma,5,3,5,5,5,5,5,5,5,3,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBVT,Domestico,Latam,Nenhuma,5,4,4,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,3,5,4,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBRF,Internacional,Tap,Nenhuma,4,3,4,4,4,5,4,4,5,3,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Ate 1 sm,Sim,Outros,2 a 3,Nao
+SBPA,Domestico,Azul,Nenhuma,4,4,5,4,5,4,4,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBGR,Internacional,Sky Airlines,Nenhuma,5,5,5,5,5,5,4,4,5,5,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Nao
+SBGR,Internacional,Sky Airlines,Nenhuma,5,5,5,5,5,4,4,3,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBBE,Domestico,Latam,Nenhuma,4,5,5,5,5,5,4,5,3,5,5,4,Estrangeira,Feminino,26 a 35 anos,Doutorado,Entre 4 e 10 sm,Nao,Trabalho,2 a 3,Nao
+SBGL,Internacional,Sky Airlines,Nenhuma,5,5,4,4,4,4,4,4,5,3,5,4,Estrangeira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,Gol,Nenhuma,4,4,2,5,3,3,3,3,4,4,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBCT,Internacional,Aerolíneas Argentinas,Nenhuma,5,4,5,5,4,4,3,5,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,2 a 3,Nao
+SBSG,Internacional,Tap,Nenhuma,5,4,1,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBSG,Internacional,Tap,Nenhuma,5,3,5,5,3,5,4,2,5,4,4,3,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,3,5,4,5,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,6 a 10,Nao
+SBGL,Internacional,Tap,Nenhuma,4,3,4,4,4,5,4,4,3,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBBE,Domestico,Latam,Nenhuma,5,2,4,5,4,4,4,4,5,4,5,5,Estrangeira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,6 a 10,Sim
+SBGL,Internacional,Latam,Nenhuma,4,2,3,4,4,4,4,5,4,5,5,5,Estrangeira,Masculino,36 a 45 anos,Mestrado,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBGL,Internacional,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Estrangeira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBCF,Domestico,Latam,Nenhuma,5,3,3,4,4,4,3,3,4,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBSG,Domestico,Azul,Nenhuma,4,2,4,4,4,5,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Outros,2 a 3,Sim
+SBKP,Domestico,Azul,Nenhuma,4,2,4,5,3,2,3,3,5,5,5,3,Brasileira,Masculino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,4,5,4,5,5,5,5,5,Estrangeira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBRF,Domestico,Gol,Nenhuma,3,3,4,3,4,4,4,3,4,3,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,2 a 3,Sim
+SBSG,Internacional,Tap,Nenhuma,5,2,3,4,5,5,4,3,4,3,4,3,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBSP,Domestico,Gol,Nenhuma,4,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Internacional,Gol,Nenhuma,5,4,5,4,4,5,4,4,5,4,4,5,Estrangeira,Masculino,46 a 55 anos,Mestrado,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBFZ,Domestico,Gol,Nenhuma,5,4,5,5,4,5,4,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Latam,Nenhuma,4,4,5,4,3,4,4,5,4,4,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Outros,4 a 5,Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Ensino fundamental,Entre 1 e 2 sm,Sim,Lazer,4 a 5,Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,2,5,4,4,5,5,5,4,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Nao,Lazer,2 a 3,Nao
+SBEG,Domestico,Latam,Nenhuma,3,3,4,4,3,4,3,3,3,3,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Internacional,Tap,Nenhuma,4,4,5,4,3,3,4,3,5,4,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Outros,2 a 3,Nao
+SBGR,Domestico,Latam,Nenhuma,5,4,4,5,5,5,3,4,4,4,3,4,Brasileira,Masculino,18 a 25 anos,Superior,Mais de 20 sm,Sim,Lazer,Mais de 11,Sim
+SBGR,Internacional,Air Europa,Nenhuma,4,3,5,5,5,4,3,2,4,2,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBFZ,Internacional,Tap,Nenhuma,5,3,5,5,5,5,4,5,4,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Outros,2 a 3,Sim
+SBSV,Domestico,Latam,Nenhuma,5,5,5,5,4,5,4,5,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Doutorado,Entre 10 e 20 sm,Sim,Trabalho,2 a 3,Sim
+SBRF,Domestico,Azul,Nenhuma,2,4,5,4,4,3,3,2,3,4,4,3,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,4 a 5,Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,5,4,5,4,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Nao,Outros,2 a 3,Nao
+SBKP,Domestico,Azul,Nenhuma,5,5,5,5,3,5,5,5,4,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,Azul,Nenhuma,4,4,4,4,3,4,4,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Outros,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,4,4,4,2,4,3,4,4,5,5,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBGR,Domestico,Latam,Nenhuma,4,4,4,4,4,3,4,3,3,2,4,4,Brasileira,Masculino,56 a 65 anos,Doutorado,Mais de 20 sm,Sim,Outros,2 a 3,Nao
+SBMO,Domestico,Latam,Nenhuma,4,4,5,5,4,4,5,4,4,3,4,4,Brasileira,Masculino,56 a 65 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,6 a 10,Nao
+SBSG,Internacional,Tap,Nenhuma,4,2,5,3,2,5,3,1,5,5,5,2,Brasileira,Feminino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Outros,4 a 5,Sim
+SBVT,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Latam,Nenhuma,5,4,5,4,4,5,4,4,5,3,5,5,Brasileira,Feminino,36 a 45 anos,Doutorado,Prefiro nao informar,Sim,Lazer e Trabalho,2 a 3,Sim
+SBCY,Domestico,Latam,Nenhuma,4,4,3,4,3,4,4,4,3,4,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Sim
+SBSV,Domestico,Azul,Nenhuma,5,4,5,4,4,5,4,3,4,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,4,5,4,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBGL,Domestico,Gol,Nenhuma,5,4,5,5,4,4,5,5,4,4,5,5,Brasileira,Feminino,56 a 65 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Sim,Outros,4 a 5,Sim
+SBSV,Domestico,Azul,Nenhuma,5,3,5,5,3,4,3,3,4,2,4,3,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,Mais de 11,Sim
+SBSV,Domestico,Latam,Nenhuma,5,5,4,4,3,5,3,5,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBRJ,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Azul,Nenhuma,4,5,5,4,5,4,5,3,4,4,4,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Latam,Nenhuma,5,3,3,5,4,4,4,5,4,5,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGL,Internacional,United Airlines,Nenhuma,4,3,4,5,5,3,4,4,5,3,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer e Trabalho,1 (Primeira viagem),Nao
+SBVT,Domestico,Azul,Nenhuma,5,1,4,4,3,5,3,4,3,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBKP,Domestico,Azul,Nenhuma,5,5,5,4,3,5,4,1,1,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,Mais de 11,Sim
+SBGL,Internacional,Tap,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Estrangeira,Masculino,26 a 35 anos,Mestrado,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,Tap,Nenhuma,5,4,5,5,4,4,5,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,2 a 3,Nao
+SBGL,Domestico,Latam,Nenhuma,5,5,5,5,5,4,4,5,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Mais de 20 sm,Sim,Lazer,4 a 5,Sim
+SBSG,Internacional,Tap,Nenhuma,3,1,5,4,1,4,5,1,5,4,5,3,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Nao,Lazer,Mais de 11,Sim
+SBSG,Internacional,Tap,Nenhuma,4,1,5,5,4,5,4,2,3,5,3,4,Brasileira,Masculino,18 a 25 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBPA,Domestico,Latam,Nenhuma,4,4,5,4,4,4,4,4,5,4,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,2 a 3,Sim
+SBCY,Domestico,Latam,Nenhuma,4,4,5,4,3,4,3,3,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBMO,Domestico,Latam,Nenhuma,5,4,5,4,4,3,3,3,1,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,Azul,Nenhuma,5,4,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer e Trabalho,2 a 3,Sim
+SBFL,Domestico,Gol,Nenhuma,5,3,5,5,5,5,4,5,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Trabalho,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,4,3,5,5,3,5,4,4,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Lazer e Trabalho,4 a 5,Sim
+SBFL,Domestico,Azul,Nenhuma,4,4,5,4,3,5,5,5,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBRJ,Domestico,Gol,Nenhuma,5,5,4,3,5,4,4,3,4,4,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBVT,Domestico,Azul,Nenhuma,5,3,5,5,5,5,4,5,5,3,4,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Nao,Lazer,2 a 3,Sim
+SBPA,Domestico,Latam,Nenhuma,4,4,4,4,4,5,5,3,5,3,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Sim,Lazer,1 (Primeira viagem),Nao
+SBCT,Domestico,Latam,Nenhuma,5,5,5,5,4,4,4,5,4,4,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Sim
+SBCF,Domestico,Azul,Nenhuma,5,5,3,5,4,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBGR,Domestico,Gol,Nenhuma,4,4,3,4,3,4,3,2,3,4,4,4,Brasileira,Masculino,36 a 45 anos,Mestrado,Entre 10 e 20 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Latam,Nenhuma,4,3,4,4,3,3,4,4,3,3,3,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,4 a 5,Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,3,5,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBCF,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBFL,Domestico,Latam,Nenhuma,5,4,4,5,5,5,4,3,4,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBCY,Domestico,Latam,Nenhuma,4,4,4,5,3,5,3,5,5,4,4,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Outros,1 (Primeira viagem),Sim
+SBGL,Internacional,Sky Airlines,Nenhuma,5,5,5,5,4,5,5,4,3,5,5,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBKP,Domestico,Gol,Nenhuma,5,3,4,5,5,5,4,5,4,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Latam,Nenhuma,5,4,5,5,5,5,4,3,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,4,5,5,3,5,5,5,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Outros,4 a 5,Sim
+SBRF,Domestico,Gol,Nenhuma,5,2,5,4,4,5,3,3,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,6 a 10,Sim
+SBGL,Internacional,Sky Airlines,Nenhuma,4,5,5,5,3,5,5,5,5,4,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Mais de 20 sm,Sim,Lazer,6 a 10,Sim
+SBKP,Domestico,Azul,Nenhuma,4,5,4,5,3,3,5,4,3,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Nao
+SBBR,Domestico,Gol,Nenhuma,5,5,4,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBEG,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Ate 1 sm,Sim,Trabalho,2 a 3,Nao
+SBGR,Domestico,Latam,Nenhuma,3,1,1,5,5,5,1,1,4,5,5,3,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBGL,Domestico,Gol,Nenhuma,5,4,4,4,5,4,5,2,5,4,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Nao,Outros,6 a 10,Sim
+SBMO,Domestico,Latam,Nenhuma,4,5,4,5,5,5,5,5,5,4,4,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,5,5,5,5,4,5,5,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,6 a 10,Sim
+SBCY,Domestico,Latam,Nenhuma,5,4,4,5,4,5,4,5,5,4,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Outros,6 a 10,Sim
+SBPA,Domestico,Latam,Nenhuma,5,5,4,5,4,3,5,5,5,4,4,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,Mais de 11,Sim
+SBGL,Internacional,Tap,Nenhuma,4,4,4,5,4,5,5,2,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,Latam,Nenhuma,5,4,4,4,4,4,3,4,4,2,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBVT,Domestico,Gol,Nenhuma,5,4,5,5,4,4,5,5,5,4,5,5,Brasileira,Masculino,Mais de 65 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Sim
+SBVT,Domestico,Gol,Nenhuma,4,4,4,5,4,4,4,5,4,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,6 a 10,Sim
+SBGR,Internacional,Air Europa,Nenhuma,5,4,4,3,5,3,3,3,5,5,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Sim
+SBGO,Domestico,Latam,Nenhuma,5,5,5,5,4,5,5,4,5,3,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBBE,Domestico,Gol,Nenhuma,3,5,4,5,5,5,1,5,3,5,5,3,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,5,5,5,4,5,4,5,5,4,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBPA,Domestico,Azul,Nenhuma,4,4,4,4,4,5,5,5,5,4,5,5,Brasileira,Feminino,46 a 55 anos,Mestrado,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBVT,Domestico,Latam,Nenhuma,4,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Nao,Trabalho,6 a 10,Nao
+SBRF,Domestico,Latam,Nenhuma,2,4,5,4,3,5,3,3,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,2 a 3,Nao
+SBBE,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,4,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBRJ,Domestico,Azul,Nenhuma,5,4,5,4,4,4,4,5,4,3,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,4 a 5,Sim
+SBRF,Domestico,Azul,Nenhuma,5,5,4,5,4,5,3,5,4,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Outros,4 a 5,Sim
+SBMO,Domestico,Latam,Nenhuma,5,3,5,5,3,4,5,5,4,4,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBFL,Domestico,Azul,Nenhuma,4,1,5,5,4,5,5,3,4,5,5,4,Brasileira,Masculino,46 a 55 anos,Mestrado,Prefiro nao informar,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,Gol,Nenhuma,4,3,4,3,3,4,3,3,4,3,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 1 e 2 sm,Sim,Outros,4 a 5,Sim
+SBGR,Internacional,Air Europa,Nenhuma,5,5,5,5,5,5,4,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,3,3,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,4 a 5,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Sim
+SBVT,Domestico,Azul,Nenhuma,5,4,3,5,2,5,5,5,5,5,5,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Sim
+SBRJ,Domestico,Azul,Nenhuma,5,5,5,4,3,5,4,4,4,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBPA,Domestico,Latam,Nenhuma,5,4,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Ate 1 sm,Nao,Lazer,2 a 3,Sim
+SBPA,Domestico,Gol,Nenhuma,4,5,4,5,5,5,4,5,5,2,3,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBPA,Domestico,Gol,Nenhuma,5,4,5,5,4,5,4,4,5,4,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Nao
+SBPA,Domestico,Gol,Nenhuma,5,3,5,5,5,4,4,5,4,4,4,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBGR,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,3,4,5,4,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino fundamental,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Internacional,United Airlines,Nenhuma,5,5,5,5,4,4,4,5,5,4,4,5,Brasileira,Feminino,26 a 35 anos,Mestrado,Prefiro nao informar,Nao,Lazer,6 a 10,Sim
+SBRF,Domestico,Latam,Nenhuma,4,4,4,4,4,4,3,2,4,3,3,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFL,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,Mais de 65 anos,Superior,Prefiro nao informar,Sim,Outros,2 a 3,Sim
+SBFL,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Sim,Outros,2 a 3,Sim
+SBGO,Domestico,Latam,Nenhuma,5,4,5,5,4,5,5,5,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Outros,2 a 3,Nao
+SBGO,Domestico,Gol,Deficiencia Fisica / Motora,4,5,5,4,4,5,4,4,5,5,5,5,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,4 a 5,Nao
+SBMO,Domestico,Latam,Nenhuma,5,3,5,5,5,5,5,2,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,3,5,3,4,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Internacional,Tap,Nenhuma,5,4,4,4,4,5,5,4,5,4,3,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,4,5,5,4,4,5,5,4,5,5,Brasileira,Masculino,46 a 55 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,2 a 3,Nao
+SBRF,Domestico,Gol,Nenhuma,4,4,3,5,5,5,4,4,4,5,5,5,Brasileira,Feminino,26 a 35 anos,Doutorado,Entre 1 e 2 sm,Sim,Trabalho,4 a 5,Sim
+SBSG,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,3,4,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBRF,Internacional,Tap,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBFZ,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBVT,Domestico,Latam,Nenhuma,5,4,4,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,18 a 25 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGR,Domestico,Latam,Nenhuma,4,2,2,3,4,4,2,2,4,4,4,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBPA,Domestico,Latam,Nenhuma,5,5,5,4,4,5,4,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBCT,Domestico,Azul,Nenhuma,5,2,4,4,3,4,4,4,4,4,4,4,Brasileira,Masculino,46 a 55 anos,Doutorado,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBCT,Internacional,Aerolíneas Argentinas,Nenhuma,5,5,5,5,2,3,4,5,5,3,4,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Internacional,Tap,Nenhuma,5,4,4,5,3,5,5,3,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Gol,Nenhuma,5,4,4,4,5,5,5,3,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Sim,Trabalho,4 a 5,Sim
+SBGR,Domestico,Latam,Nenhuma,5,5,5,5,5,5,1,1,5,5,5,1,Brasileira,Masculino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBMO,Domestico,Latam,Nenhuma,5,4,4,5,3,5,4,4,5,4,4,4,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,4 a 5,Sim
+SBKP,Domestico,Gol,Nenhuma,5,3,4,5,4,5,4,5,5,4,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Outros,4 a 5,Sim
+SBBE,Domestico,Latam,Nenhuma,3,5,3,5,3,5,3,3,3,2,3,3,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,5,5,3,5,3,5,2,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBRF,Domestico,Latam,Nenhuma,5,5,5,5,5,4,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Mais de 20 sm,Sim,Trabalho,6 a 10,Sim
+SBSG,Domestico,Gol,Nenhuma,4,1,4,5,5,4,5,4,5,5,3,3,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Nao
+SBSG,Domestico,Gol,Nenhuma,5,4,5,5,5,5,3,3,1,5,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,6 a 10,Sim
+SBSG,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,3,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBGL,Domestico,Gol,Nenhuma,5,5,5,5,4,5,5,1,4,5,3,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Trabalho,1 (Primeira viagem),Nao
+SBGO,Domestico,Azul,Nenhuma,5,5,5,4,4,5,5,3,5,5,4,5,Brasileira,Masculino,26 a 35 anos,Mestrado,Entre 10 e 20 sm,Sim,Trabalho,2 a 3,Nao
+SBPA,Domestico,Azul,Nenhuma,5,5,5,4,5,5,2,5,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,2 a 3,Sim
+SBSP,Domestico,Azul,Nenhuma,4,4,5,4,3,4,4,3,3,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,2 a 3,Sim
+SBVT,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Estrangeira,Masculino,36 a 45 anos,Ensino fundamental,Prefiro nao informar,Sim,Trabalho,2 a 3,Nao
+SBCF,Internacional,Tap,Nenhuma,5,5,5,5,4,5,5,1,3,5,5,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 2 e 4 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBVT,Domestico,Gol,Nenhuma,5,5,1,4,5,5,4,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Latam,Nenhuma,5,5,5,4,4,5,4,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBGO,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,2 a 3,Nao
+SBRJ,Domestico,Azul,Nenhuma,4,5,5,5,5,5,4,4,4,5,4,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Outros,4 a 5,Sim
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBFL,Domestico,Latam,Nenhuma,5,5,4,4,5,5,5,5,5,5,4,5,Brasileira,Feminino,18 a 25 anos,Superior,Prefiro nao informar,Nao,Outros,6 a 10,Sim
+SBSG,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,4,1,5,5,4,Brasileira,Feminino,46 a 55 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBSV,Domestico,Azul,Nenhuma,5,5,5,5,4,5,4,2,4,3,4,3,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,4 a 5,Nao
+SBVT,Domestico,Azul,Nenhuma,5,4,4,5,4,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBVT,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,3,3,5,5,4,4,5,2,5,4,5,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Sim,Outros,1 (Primeira viagem),Nao
+SBBR,Domestico,Latam,Nenhuma,5,4,5,5,4,5,4,1,2,3,5,4,Brasileira,Masculino,18 a 25 anos,Superior,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBFL,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Prefiro nao informar,Sim,Trabalho,1 (Primeira viagem),Sim
+SBFZ,Domestico,Latam,Nenhuma,4,4,5,4,5,4,3,4,4,3,4,4,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBCY,Domestico,Latam,Nenhuma,5,5,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Ate 1 sm,Sim,Lazer,1 (Primeira viagem),Nao
+SBFL,Domestico,Azul,Nenhuma,5,5,3,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBKP,Internacional,Azul,Nenhuma,5,5,5,5,4,5,5,5,4,5,5,5,Brasileira,Masculino,Mais de 65 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Sim
+SBRJ,Domestico,Gol,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,46 a 55 anos,Superior,Entre 10 e 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBSG,Domestico,Azul,Nenhuma,4,2,4,4,4,4,5,2,2,5,5,4,Brasileira,Feminino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,4,5,3,4,3,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBPA,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Sim,Lazer,4 a 5,Sim
+SBFL,Domestico,Latam,Nenhuma,5,2,4,5,5,5,4,4,4,5,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBMO,Domestico,Gol,Nenhuma,5,5,4,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,3,5,5,4,5,4,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBRJ,Domestico,Gol,Nenhuma,2,3,3,2,4,5,5,5,3,5,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Outros,4 a 5,Nao
+SBSV,Domestico,Azul,Nenhuma,4,4,4,3,3,4,4,4,4,2,4,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 1 e 2 sm,Sim,Trabalho,1 (Primeira viagem),Nao
+SBPA,Domestico,Azul,Nenhuma,5,4,5,5,5,5,4,5,4,5,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,6 a 10,Nao
+SBPA,Domestico,Gol,Nenhuma,5,3,5,4,5,5,5,5,2,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Nao
+SBCF,Domestico,Azul,Nenhuma,4,3,4,4,3,4,4,4,5,3,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,Mais de 11,Sim
+SBFZ,Domestico,Gol,Nenhuma,5,4,4,4,5,4,4,3,4,5,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,6 a 10,Nao
+SBMO,Domestico,Gol,Nenhuma,5,4,5,5,4,5,4,4,5,4,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Ate 1 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBGO,Domestico,Latam,Nenhuma,5,5,4,5,5,5,5,5,5,5,4,5,Brasileira,Masculino,36 a 45 anos,Ensino medio,Entre 1 e 2 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Latam,Nenhuma,4,4,4,4,4,4,4,2,2,4,4,4,Brasileira,Masculino,36 a 45 anos,Superior,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Azul,Deficiencia Fisica / Motora,4,4,4,4,4,4,4,3,4,3,4,4,Brasileira,Masculino,36 a 45 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSP,Domestico,Azul,Nenhuma,5,5,5,5,5,5,3,5,5,4,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,6 a 10,Sim
+SBVT,Domestico,Latam,Nenhuma,5,4,4,4,4,4,5,4,2,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Outros,1 (Primeira viagem),Nao
+SBFL,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,4,5,4,5,5,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Gol,Nenhuma,5,4,4,4,4,3,3,4,5,4,4,4,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 2 e 4 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBFZ,Domestico,Gol,Nenhuma,3,3,4,5,5,5,5,3,2,5,5,5,Brasileira,Feminino,18 a 25 anos,Ensino medio,Entre 1 e 2 sm,Sim,Lazer,4 a 5,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Ate 1 sm,Sim,Trabalho,2 a 3,Nao
+SBMO,Domestico,Passaredo,Nenhuma,5,3,3,5,3,5,1,3,5,4,4,3,Brasileira,Masculino,26 a 35 anos,Superior,Entre 1 e 2 sm,Sim,Lazer,2 a 3,Sim
+SBSG,Domestico,Gol,Nenhuma,5,1,5,5,2,5,3,5,2,5,4,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 2 e 4 sm,Sim,Outros,2 a 3,Sim
+SBBR,Domestico,Latam,Nenhuma,5,3,2,4,3,3,3,4,3,5,5,3,Brasileira,Masculino,26 a 35 anos,Doutorado,Entre 10 e 20 sm,Sim,Outros,Mais de 11,Sim
+SBFL,Domestico,Gol,Nenhuma,5,2,5,5,5,5,5,5,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,6 a 10,Sim
+SBFL,Domestico,Gol,Nenhuma,4,3,3,4,4,4,4,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 2 e 4 sm,Sim,Lazer,6 a 10,Nao
+SBMO,Domestico,Latam,Nenhuma,4,4,4,3,4,4,4,3,4,4,5,3,Brasileira,Masculino,18 a 25 anos,Ensino medio,Entre 4 e 10 sm,Nao,Trabalho,1 (Primeira viagem),Nao
+SBPA,Domestico,Azul,Nenhuma,5,4,5,4,5,4,4,3,4,5,4,5,Brasileira,Masculino,18 a 25 anos,Superior,Entre 2 e 4 sm,Sim,Trabalho,4 a 5,Sim
+SBEG,Domestico,Gol,Nenhuma,4,5,5,4,4,4,4,5,4,4,4,5,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Ate 1 sm,Sim,Lazer,2 a 3,Sim
+SBGR,Domestico,Latam,Nenhuma,4,4,3,4,3,3,3,2,4,3,3,3,Brasileira,Feminino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim
+SBMO,Domestico,Latam,Nenhuma,5,5,5,5,2,5,3,1,4,5,5,4,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBSV,Domestico,Latam,Nenhuma,5,5,5,5,2,5,5,3,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,2 a 3,Sim
+SBSV,Domestico,Azul,Nenhuma,5,4,4,2,2,1,4,3,4,2,3,1,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Lazer,Mais de 11,Sim
+SBFL,Domestico,Latam,Nenhuma,4,4,4,4,3,4,4,4,4,4,5,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Nao,Lazer,2 a 3,Nao
+SBFL,Domestico,Latam,Nenhuma,5,4,5,5,3,5,5,5,5,5,5,5,Brasileira,Feminino,36 a 45 anos,Ensino medio,Entre 4 e 10 sm,Sim,Outros,2 a 3,Sim
+SBFL,Domestico,Latam,Nenhuma,5,4,5,5,4,5,5,5,5,5,5,5,Brasileira,Masculino,56 a 65 anos,Superior,Prefiro nao informar,Nao,Lazer,2 a 3,Nao
+SBFZ,Domestico,Latam,Nenhuma,4,5,4,5,4,4,3,2,5,5,5,4,Brasileira,Feminino,18 a 25 anos,Superior,Entre 1 e 2 sm,Nao,Lazer,2 a 3,Nao
+SBGL,Domestico,Latam,Nenhuma,5,4,4,5,5,4,4,2,5,5,5,5,Brasileira,Feminino,26 a 35 anos,Superior,Entre 10 e 20 sm,Sim,Lazer e Trabalho,2 a 3,Nao
+SBCF,Domestico,Gol,Nenhuma,4,4,4,4,4,3,3,4,4,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Prefiro nao informar,Sim,Lazer,2 a 3,Nao
+SBCF,Domestico,Azul,Nenhuma,5,5,5,5,4,5,5,4,4,5,5,5,Brasileira,Masculino,Mais de 65 anos,Ensino medio,Entre 10 e 20 sm,Sim,Lazer,6 a 10,Sim
+SBGL,Internacional,United Airlines,Nenhuma,5,5,5,5,5,5,5,4,5,5,5,5,Brasileira,Masculino,36 a 45 anos,Superior,Mais de 20 sm,Sim,Lazer,4 a 5,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,5,5,5,1,5,5,5,4,Brasileira,Masculino,26 a 35 anos,Ensino medio,Entre 10 e 20 sm,Nao,Trabalho,2 a 3,Nao
+SBMO,Domestico,Azul,Nenhuma,5,5,5,5,4,5,4,2,5,4,4,4,Brasileira,Feminino,18 a 25 anos,Superior,Ate 1 sm,Nao,Lazer,4 a 5,Nao
+SBMO,Domestico,Gol,Nenhuma,3,5,2,5,4,4,4,4,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Nao,Lazer,Mais de 11,Nao
+SBGL,Domestico,Latam,Nenhuma,5,5,4,5,5,5,5,5,5,5,5,5,Brasileira,Masculino,26 a 35 anos,Superior,Entre 2 e 4 sm,Sim,Outros,6 a 10,Sim
+SBKP,Domestico,Azul,Nenhuma,5,3,5,4,4,4,5,4,4,5,5,4,Brasileira,Feminino,26 a 35 anos,Mestrado,Mais de 20 sm,Sim,Trabalho,Mais de 11,Sim
+SBKP,Domestico,Azul,Nenhuma,5,5,5,4,4,4,4,5,4,4,5,4,Brasileira,Feminino,18 a 25 anos,Ensino medio,Prefiro nao informar,Nao,Lazer,1 (Primeira viagem),Nao
+SBSG,Domestico,Gol,Nenhuma,5,4,4,4,4,4,3,5,5,4,2,4,Brasileira,Feminino,46 a 55 anos,Superior,Entre 10 e 20 sm,Nao,Lazer,1 (Primeira viagem),Nao
+SBMO,Domestico,Azul,Nenhuma,5,4,5,5,4,4,4,3,5,5,5,4,Brasileira,Feminino,26 a 35 anos,Ensino medio,Entre 4 e 10 sm,Sim,Lazer,2 a 3,Sim
+SBSG,Domestico,Azul,Nenhuma,4,4,4,4,4,4,4,3,2,4,4,4,Brasileira,Masculino,26 a 35 anos,Ensino fundamental,Prefiro nao informar,Sim,Trabalho,2 a 3,Sim
+SBVT,Domestico,Azul,Nenhuma,4,4,4,4,4,4,4,4,5,4,4,4,Brasileira,Masculino,26 a 35 anos,Superior,Entre 4 e 10 sm,Sim,Trabalho,6 a 10,Sim

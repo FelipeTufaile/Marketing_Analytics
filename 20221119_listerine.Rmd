@@ -1,0 +1,36 @@
+---
+title: "Listerine"
+author: "Felipe Tufaile"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r configs, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, include = TRUE, message = FALSE)
+```
+
+
+
+## Loading libraries
+
+```{r libraries}
+
+## Set working directory
+setwd("~/Insper/Marketing Analytics")
+
+# options(download.file.method = "wininet") ## isntall factoextra for windows
+# install_github("kassambara/factoextra")
+# inlibrary(factoextra)
+
+library(tidyverse)
+library(readxl)
+# library(sjmisc)
+# library(Hmisc)
+```
+
+
+```{r reading_dataset}
+listerine <- read_excel("Kantar Antiseptic DS 2021.xlsx", sheet = "BD")
+# View(listerine)
+```
+

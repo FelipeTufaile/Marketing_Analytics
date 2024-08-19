@@ -1,0 +1,1497 @@
+---
+title: "Análise de Satisfação de Aeroportos Brasileiros"
+author: "Felipe Tufaile, Vinicius de Camargo, Helena Funari, Rodrigo Zamengo"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+```{r configs, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, include = TRUE, message = FALSE)
+```
+
+## Carrengando Bibliotecas
+
+```{r libraries}
+
+## Set working directory
+setwd("~/Insper/Marketing_Analytics")
+
+library(plyr)
+library(dplyr)
+library(tidyverse)
+library(ggthemes)
+library(gridExtra)
+library(ggpubr)
+library(Hmisc)
+library(PerformanceAnalytics)
+library(ggdendro)
+library(cluster)
+library(factoextra)
+library(readr)
+library(caret)
+library(RColorBrewer)
+```
+
+## Definição de funções
+
+```{r criando_funcoes}
+dendro_data_k <- function(hc, k) {
+  
+  hcdata    <-  ggdendro::dendro_data(hc, type = "rectangle")
+  seg       <-  hcdata$segments
+  labclust  <-  cutree(hc, k)[hc$order]
+  segclust  <-  rep(0L, nrow(seg))
+  heights   <-  sort(hc$height, decreasing = TRUE)
+  height    <-  mean(c(heights[k], heights[k - 1L]), na.rm = TRUE)
+  
+  for (i in 1:k) {
+    xi      <-  hcdata$labels$x[labclust == i]
+    idx1    <-  seg$x    >= min(xi) & seg$x    <= max(xi)
+    idx2    <-  seg$xend >= min(xi) & seg$xend <= max(xi)
+    idx3    <-  seg$yend < height
+    idx     <-  idx1 & idx2 & idx3
+    segclust[idx] <- i
+  }
+  
+  idx                    <-  which(segclust == 0L)
+  segclust[idx]          <-  segclust[idx + 1L]
+  hcdata$segments$clust  <-  segclust
+  hcdata$segments$line   <-  as.integer(segclust < 1L)
+  hcdata$labels$clust    <-  labclust
+  
+  hcdata
+}
+
+set_labels_params <- function(nbLabels,
+                              direction = c("tb", "bt", "lr", "rl"),
+                              fan       = FALSE) {
+  if (fan) {
+    angle       <-  360 / nbLabels * 1:nbLabels + 90
+    idx         <-  angle >= 90 & angle <= 270
+    angle[idx]  <-  angle[idx] + 180
+    hjust       <-  rep(0, nbLabels)
+    hjust[idx]  <-  1
+  } else {
+    angle       <-  rep(0, nbLabels)
+    hjust       <-  0
+    if (direction %in% c("tb", "bt")) { angle <- angle + 45 }
+    if (direction %in% c("tb", "rl")) { hjust <- 1 }
+  }
+  list(angle = angle, hjust = hjust, vjust = 0.5)
+}
+
+plot_ggdendro <- function(hcdata,
+                          direction   = c("lr", "rl", "tb", "bt"),
+                          fan         = FALSE,
+                          scale.color = NULL,
+                          branch.size = 1,
+                          label.size  = 3,
+                          nudge.label = 0.01,
+                          expand.y    = 0.1) {
+  
+  direction <- match.arg(direction) # if fan = FALSE
+  ybreaks   <- pretty(segment(hcdata)$y, n = 5)
+  ymax      <- max(segment(hcdata)$y)
+  
+  ## branches
+  p <- ggplot() +
+    geom_segment(data         =  segment(hcdata),
+                 aes(x        =  x,
+                     y        =  y,
+                     xend     =  xend,
+                     yend     =  yend,
+                     linetype =  factor(line),
+                     colour   =  factor(clust)),
+                 lineend      =  "round",
+                 show.legend  =  FALSE,
+                 size         =  branch.size)
+  
+  ## orientation
+  if (fan) {
+    p <- p +
+      coord_polar(direction = -1) +
+      scale_x_continuous(breaks = NULL,
+                         limits = c(0, nrow(label(hcdata)))) +
+      scale_y_reverse(breaks = ybreaks)
+  } else {
+    p <- p + scale_x_continuous(breaks = NULL)
+    if (direction %in% c("rl", "lr")) {
+      p <- p + coord_flip()
+    }
+    if (direction %in% c("bt", "lr")) {
+      p <- p + scale_y_reverse(breaks = ybreaks)
+    } else {
+      p <- p + scale_y_continuous(breaks = ybreaks)
+      nudge.label <- -(nudge.label)
+    }
+  }
+  
+  # labels
+  labelParams <- set_labels_params(nrow(hcdata$labels), direction, fan)
+  hcdata$labels$angle <- labelParams$angle
+  
+  p <- p +
+    geom_text(data        =  label(hcdata),
+              aes(x       =  x,
+                  y       =  y,
+                  label   =  label,
+                  colour  =  factor(clust),
+                  angle   =  angle),
+              vjust       =  labelParams$vjust,
+              hjust       =  labelParams$hjust,
+              nudge_y     =  ymax * nudge.label,
+              size        =  label.size,
+              show.legend =  FALSE)
+  
+  # colors and limits
+  if (!is.null(scale.color)) {
+    p <- p + scale_color_manual(values = scale.color)
+  }
+  
+  ylim <- -round(ymax * expand.y, 1)
+  p    <- p + expand_limits(y = ylim)
+  
+  p
+}
+```
+
+## Leitura da base de dados
+
+A base de dados utilizada nesse estudo contem dados de satisfação de passageiros em relação a aeroportos. Nesse sentido, esse trabalho visa entender como alguns aspectos relacionados a infra-estrutura e serviços oferecidos pelos aeroportos influenciam a satisfação dos passageiros com o intuito de propor planos de ação para melhoria da experiência dos passageiros nos aeroportos. Além das perguntas relacionadas a satisfação, a base de dados possui informações que qualificam os entrevistados, como, idade, gênero, nível de escolaridade e renda, que serão utilizadas para definir um grupo alvo de atuação dentre todos os passageiros.
+As perguntas quantitativas relacionadas a satisfação dos aeroportos e que foram consideradas nesse trabalho são:
+
+  - Facilidade de desembarque no meio fio;
+  - Opções de transporte até o aeroporto;
+  - Processo de aquisição de passagem;
+  - Processo de inspeção de segurança;
+  - Estabelecimentos de alimentação;
+  - Localização e deslocamento;
+  - Conforto da sala de embarque;
+  - Disponibilidade de tomadas;
+  - Internet disponibilizada pelo aeroporto;
+  - Sanitários;
+  - Limpeza geral do aeroporto;
+  - Satisfação geral.
+  
+As perguntas acima podiam adimitir os valor de 1 a 5, sendo 1 o níve mais baixo de satisfação e 5 o nível mais alto de satisfação. A base de dados foi retirada da plataforma de dados do governo Brasileiro e o link para acesso encontra-se nas referências.
+
+```{r reading_dataset}
+## Reading aeroporto dataset
+df_aeroportos <- read_csv("20221126_aeroportos21_22_clean_v3.csv", show_col_types = F)
+```
+
+
+# 1 ANÁLISE EXPLORATÓRIA
+
+Esta seção do trabalho em o objeitvo de identificar como os passageiros avaliam os aeroportos considerando diversos tipos de estratificação, entre eles:
+
+  - Aeroportos;
+  - Idade;
+  - Escolaridade;
+  - Gênero;
+  - Renda Familiar;
+  - Motivo da Viagem;
+  - Quantidade de viagens nos últimos 12 meses;
+  
+As estratificações serão utilizadas para definir um grupo alvo de atuação de forma que os plano(s) de ação(ões) sugeridos por esse trabalho atendam esse grupo.
+
+## 1.1. Análise da satisfação geral dos aeroportos
+
+A seguir, vemos a **satisfação geral** dos passageiros em relação aos seguintes aeroportos: 
+
+  - SBBE:	AEROPORTO INTERNACIONAL JÚLIO CEZAR RIBEIRO - BELÉM (SBBE);
+  - SBBR:	AEROPORTO INTERNACIONAL JUSCELINO KUBITSCHEK - BRASÍLIA (SBBR);
+  - SBCF:	AEROPORTO INTERNACIONAL TANCREDO NEVES - CONFINS (SBCF);
+  - SBCT:	AEROPORTO INTERNACIONAL AFONSO PENA - CURITIBA (SBCT);
+  - SBCY:	AEROPORTO INTERNACIONAL MARECHAL RONDON - CUIABÁ (SBCY);
+  - SBEG:	AEROPORTO INTERNACIONAL EDUARDO GOMES - MANAUS (SBEG);
+  - SBFL:	AEROPORTO INTERNACIONAL HERCÍLIO LUZ - FLORIANÓPOLIS (SBFL);
+  - SBFZ:	AEROPORTO INTERNACIONAL PINTO MARTINS - FORTALEZA (SBFZ);
+  - SBGL:	AEROPORTO INTERNACIONAL DO GALEÃO - RIO DE JANEIRO (SBGL);
+  - SBGO:	AEROPORTO SANTA GENOVEVA - GOIÂNIA (SBGO);
+  - SBGR:	AEROPORTO INTERNACIONAL GOV. ANDRÉ FRANCO MONTORO/GUARULHOS - SÃO PAULO (SBGR);
+  - SBKP:	AEROPORTO INTERNACIONAL DE VIRACOPOS - CAMPINAS (SBKP);
+  - SBMO:	AEROPORTO INTERNACIONAL ZUMBI DOS PALMARES - MACEIÓ (SBMO);
+  - SBPA:	AEROPORTO INTERNACIONAL SALGADO FILHO - PORTO ALEGRE (SBPA);
+  - SBRF:	AEROPORTO INTERNACIONAL GILBERTO FREYRE - RECIFE (SBRF);
+  - SBRJ:	AEROPORTO SANTOS DUMONT - RIO DE JANEIRO (SBRJ);
+  - SBSG:	AEROPORTO INTERNACIONAL DE SÃO GONÇALO DO AMARANTE - NATAL (SBSG);
+  - SBSP:	AEROPORTO DE CONGONHAS - SÃO PAULO (SBSP);
+  - SBSV:	AEROPORTO INTERNACIONAL LUIZ EDUARDO MAGALHÃES - SALVADOR (SBSV);
+  - SBVT:	AEROPORTO EURICO DE AGUIAR SALLES - VITÓRIA (SBVT);
+
+Nota-se que os 5 aeroportos com melhor nota em ordem decrescente de satisfação são: SBFL, SBVT, SBCT, SBPA, SBGO. Já os 5 aeroportos com as piores notas de satisfação em ordem crescente de satisfação são: SBGR, SBSG, SBEG, SBRJ, SBRF. A quantidade de avaliações por aeroporto, por sua vez, indica uma distribuição razoavelmente uniforme, com alguns aeroportos recebendo mais avaliações do que outros
+
+```{r satisfacao_aeroporto, out.width="100%"}
+
+## Calculando review medio por aeroporto
+plot_reviews_aeroporto <- df_aeroportos %>%
+  dplyr::group_by(aeroporto, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(aeroporto=unique(df_aeroportos$aeroporto), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("aeroporto", "satisfacao.geral"),
+        by.y=c("aeroporto", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  group_by(aeroporto) %>%
+  mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  select(-qt_reviews)
+
+aeroporto_ordenado <- df_aeroportos %>%
+  dplyr::group_by(aeroporto) %>%
+  dplyr::summarize(satis_media = mean(satisfacao.geral)) %>%
+  arrange(desc(satis_media)) %>%
+  select(aeroporto) %>%
+  pull()
+
+plot_reviews_aeroporto <- plot_reviews_aeroporto %>%
+  merge(.,
+        tibble(aeroporto=aeroporto_ordenado, aeroporto.ordem=1:length(aeroporto_ordenado)),
+        by.x=c("aeroporto"),
+        by.y=c("aeroporto"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, y=reorder(aeroporto, aeroporto.ordem), fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(aeroporto, aeroporto.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Aeroporto") +
+  scale_fill_manual(name="Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+
+plot_qt_reviews_aeroportos <- df_aeroportos %>%
+  merge(.,
+        tibble(aeroporto=aeroporto_ordenado, aeroporto.ordem=1:length(aeroporto_ordenado)),
+        by.x=c("aeroporto"),
+        by.y=c("aeroporto"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  dplyr::group_by(aeroporto, aeroporto.ordem) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(aeroporto, aeroporto.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(aeroporto, aeroporto.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Aeroporto") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparision
+plot <- ggarrange(plot_reviews_aeroporto, 
+                  plot_qt_reviews_aeroportos, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por aeroporto", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0)) 
+```
+
+## 1.2. Satisfação geral com aeroporto estratificado por idade
+
+Na sequência, vemos a satisfação geral dos aeroportos estratificado por idade. Nota-se que a satisfação com relação aos aeroportos não parece ser algo que variam em função da idade do passageiro, uma vez que as distribuições de notas parecem bastante similares. Para confirmar essa afirmações, foi realizado um teste de variância ANOVA de uma via, o qual também sugere que não há variância significativa entre os grupos, dado que o p-valor obtido a partir do teste é superior a nível de significância de 5% (p-valor = 0.2834 > 0.05).
+Vale ressaltar que as faixas etárias que demonstram um padrão um pouco diferente dos demais são aquelas acima de 56 anos, os quais tendem a dar mais avalições "5". Ainda assim, esse padrão não sugere uma diferença significativa suficiente para considerar esse grupo como diferente dos demais. 
+Nota-se, também, que as pessoas acima de 56 anos são a minoria entre os pesquisados, sendo que a grande maioria encontram-se entre 26 e 35 anos de idade.  
+
+```{r satisfacao_idade, out.width="100%"}
+
+plot_reviews_idade <- df_aeroportos %>%
+  dplyr::group_by(idade, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(idade=unique(df_aeroportos$idade), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("idade", "satisfacao.geral"),
+        by.y=c("idade", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  group_by(idade) %>%
+  mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  select(-qt_reviews) %>%
+  mutate(idade.ordem = case_when(idade == "18 a 25 anos" ~ 0,
+                                 idade == "26 a 35 anos" ~ 1,
+                                 idade == "36 a 45 anos" ~ 2,
+                                 idade == "46 a 55 anos" ~ 3,
+                                 idade == "56 a 65 anos" ~ 4,
+                                 idade == "Mais de 65 anos" ~ 5,
+                                 TRUE ~ 6))
+
+plot_reviews_idade <- plot_reviews_idade %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, y=reorder(idade, idade.ordem), fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(idade, idade.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Idade") +
+  scale_fill_manual(name="Classes de Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+
+plot_qt_reviews_idade <- df_aeroportos %>%
+  merge(crossing(idade=unique(df_aeroportos$idade), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("idade", "satisfacao.geral"),
+        by.y=c("idade", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(idade.ordem = case_when(idade == "18 a 25 anos" ~ 0,
+                                 idade == "26 a 35 anos" ~ 1,
+                                 idade == "36 a 45 anos" ~ 2,
+                                 idade == "46 a 55 anos" ~ 3,
+                                 idade == "56 a 65 anos" ~ 4,
+                                 idade == "Mais de 65 anos" ~ 5,
+                                 TRUE ~ 6)) %>%
+  dplyr::group_by(idade, idade.ordem) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(idade, idade.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(idade, idade.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Idade") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparison
+plot <- ggarrange(plot_reviews_idade, 
+                  plot_qt_reviews_idade, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por idade", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0)) 
+```
+```{r}
+one.way.anova.idade <-aov(satisfacao.geral ~ idade, data = df_aeroportos)
+anova(one.way.anova.idade)
+```
+## 1.3. Satisfação geral com aeroporto estratificado por escolaridade
+
+Com relação ao nível de escolaridade, é observado um padrão em relação a satisfação geral com os aeroportos: pessoas com maior nível de escolaridade em geral apresentam uma menor satisfação geral. Uma das hipóteses que poderia ser levantado aqui é que um percentual maior desse grupo utiliza os aeroportos para realizar viagens a trabalho se comparado com os demais grupos. Isso, eventualmente, poderia fazer com que as exigências desse grupo fossem maiores se coparado com as exigências de pessoas que utilizariam os aeroportos, na maioria dos casos, para vaigens de lazer. A validade dessa hipótese será investigada ao decorrer deste trabalho.
+Outro aspecto interessante é que a grande maioria dos entrevistados possui nível de escolaridade "superior".
+Em relação ao nível de escolaridade, também foi realizado um teste de variância do tipo ANOVA que confirmou a existência de diferença significativa entre os grupos de diferetentes níveis de escolaridade no que tange a satisfação com os aeroportos (o p-valor do teste é muito menor que 0.005).
+
+```{r satisfacao_escolaridade, out.width="100%"}
+
+  
+plot_reviews_escolaridade <- df_aeroportos %>%
+  dplyr::group_by(escolaridade, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(escolaridade=unique(df_aeroportos$escolaridade), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("escolaridade", "satisfacao.geral"),
+        by.y=c("escolaridade", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  group_by(escolaridade) %>%
+  mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  select(-qt_reviews) %>%
+  mutate(escolaridade.ordem = case_when(escolaridade == "Analfabeto" ~ 0,
+                                        escolaridade == "Ensino fundamental" ~ 1,
+                                        escolaridade == "Ensino medio" ~ 2,
+                                        escolaridade == "Superior" ~ 3,
+                                        escolaridade == "Mestrado" ~ 4,
+                                        escolaridade == "Doutorado" ~ 5,
+                                        TRUE ~ 6))
+
+plot_reviews_escolaridade <- plot_reviews_escolaridade %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, y=reorder(escolaridade, escolaridade.ordem), fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(escolaridade, escolaridade.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Escolaridade") +
+  scale_fill_manual(name="Classes de Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+
+plot_qt_reviews_escolaridade <- df_aeroportos %>%
+  merge(crossing(escolaridade=unique(df_aeroportos$escolaridade), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("escolaridade", "satisfacao.geral"),
+        by.y=c("escolaridade", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(escolaridade.ordem = case_when(escolaridade == "Analfabeto" ~ 0,
+                                        escolaridade == "Ensino fundamental" ~ 1,
+                                        escolaridade == "Ensino medio" ~ 2,
+                                        escolaridade == "Superior" ~ 3,
+                                        escolaridade == "Mestrado" ~ 4,
+                                        escolaridade == "Doutorado" ~ 5,
+                                        TRUE ~ 6)) %>%
+  dplyr::group_by(escolaridade, escolaridade.ordem) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(escolaridade, escolaridade.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(escolaridade, escolaridade.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Escolaridade") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparison
+plot <- ggarrange(plot_reviews_escolaridade, 
+                  plot_qt_reviews_escolaridade, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por escolaridade", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0)) 
+```
+```{r}
+one.way.anova.escolaridade <-aov(satisfacao.geral ~ escolaridade, data = df_aeroportos)
+anova(one.way.anova.escolaridade)
+```
+## 1.4. Satisfação geral com aeroporto estratificado por genero
+
+A estratificação por gênero, por sua vez, sugere que não diferenças com relação a satisfação entre homens e mulheres. Ambos apresentam a mesma proporção de níveis de satisfação. Essa afirmação é confirmada por meio da realização do teste **chi-quadrado** que apresenta um p-valor maior que 0.05. Em outras palavras, não existe associação entre o nível de satisfação e o gênero do entrevistado.
+Com relação à proporção de homens e mulheres, nota-se uma pequena diferença entre o número de homens e mulheres sendo maior o número de homens entre os entrevistados (51.5%).
+
+```{r satisfacao_genero, out.width="100%"}
+
+plot_reviews_genero <- df_aeroportos %>%
+  group_by(genero, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(genero=unique(df_aeroportos$genero), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("genero", "satisfacao.geral"),
+        by.y=c("genero", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  group_by(genero) %>%
+  mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  select(-qt_reviews) %>%
+  mutate(genero.ordem = ifelse(genero == "Masculino", 1, 0))
+
+plot_reviews_genero <- plot_reviews_genero %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, y=reorder(genero, genero.ordem), fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(genero, genero.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Gênero") +
+  scale_fill_manual(name="Classes de Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+
+plot_qt_reviews_genero <- df_aeroportos %>%
+  merge(crossing(genero=unique(df_aeroportos$genero), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("genero", "satisfacao.geral"),
+        by.y=c("genero", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(genero.ordem = ifelse(genero == "Masculino", 1, 0)) %>%
+  dplyr::group_by(genero, genero.ordem) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(genero, genero.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(genero, genero.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Gênero") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparison
+plot <- ggarrange(plot_reviews_genero, 
+                  plot_qt_reviews_genero, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por gênero", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0))
+```
+
+
+
+```{r}
+## Selecionando genero e satisfacao geral
+test01 <- df_aeroportos %>%
+    select(genero, satisfacao.geral) %>%
+    na.omit()
+
+## Criando a tabela de probabilidade
+prob_01 <- (cbind(prop.table(table(test01$genero, test01$satisfacao.geral), margin = 1)))
+prob_01
+
+## Realizando teste chi-sq
+print(chisq.test(table(test01$genero, test01$satisfacao.geral)))
+```
+
+## 1.5. Satisfação geral com aeroporto estratificado por renda
+
+A estratificação por renda familiar, assim como por escolaridade, sugere que existe uma interação entre a satifação e a renda familiar de forma que quanto maior for a renda familiar, menor será a satisfação com relação aos aeroportos. Essa afirmação também é confirmada por um teste de variância do tipo ANOVA que indica um p-valor abaixo de 0.05. A hipótese que poderia ser levantada aqui reforça a hipótese levantada na interpretação do nível de escolaridade: um maior número de pessoas que possui maior renda familiar utilizam os aeroporto para realizar viagens a trabalho o que traria uma maior nível de exigência para esse passageiros.
+Com relação à distribuição da quantidade de passageiros entre as diferentes categorias de renda familiar, nota-se uma concentração de pessoas que recebem entre 4 e 10 salários mínimo. Nota-se também uma grande quantidade de pessoas que opta por não responder essa pergunta.
+
+```{r satisfacao_renda, out.width="100%"}
+
+plot_reviews_renda <- df_aeroportos %>%
+  group_by(renda.familiar, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(renda.familiar=unique(df_aeroportos$renda.familiar), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("renda.familiar", "satisfacao.geral"),
+        by.y=c("renda.familiar", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  group_by(renda.familiar) %>%
+  mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  select(-qt_reviews) %>%
+  mutate(renda.ordem = case_when(renda.familiar == "Prefiro nao informar" ~ 0,
+                                 renda.familiar == "Ate 1 sm" ~ 1,
+                                 renda.familiar == "Entre 1 e 2 sm" ~ 2,
+                                 renda.familiar == "Entre 2 e 4 sm" ~ 3,
+                                 renda.familiar == "Entre 4 e 10 sm" ~ 4,
+                                 renda.familiar == "Entre 10 e 20 sm" ~ 5,
+                                 renda.familiar == "Mais de 20 sm" ~ 6,
+                                 TRUE ~ 7))
+
+plot_reviews_renda <- plot_reviews_renda %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, y=reorder(renda.familiar, renda.ordem), fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(renda.familiar, renda.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Renda Familiar") +
+  scale_fill_manual(name="Classes de Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+
+plot_qt_reviews_renda <- df_aeroportos %>%
+  merge(crossing(renda.familiar=unique(df_aeroportos$renda.familiar), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("renda.familiar", "satisfacao.geral"),
+        by.y=c("renda.familiar", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  mutate(renda.ordem = case_when(renda.familiar == "Prefiro nao informar" ~ 0,
+                                 renda.familiar == "Ate 1 sm" ~ 1,
+                                 renda.familiar == "Entre 1 e 2 sm" ~ 2,
+                                 renda.familiar == "Entre 2 e 4 sm" ~ 3,
+                                 renda.familiar == "Entre 4 e 10 sm" ~ 4,
+                                 renda.familiar == "Entre 10 e 20 sm" ~ 5,
+                                 renda.familiar == "Mais de 20 sm" ~ 6,
+                                 TRUE ~ 7)) %>%
+  dplyr::group_by(renda.familiar, renda.ordem) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(renda.familiar, renda.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(renda.familiar, renda.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Renda familiar") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparison
+plot <- ggarrange(plot_reviews_renda, 
+                  plot_qt_reviews_renda, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por renda familiar", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0))   
+```
+
+
+```{r}
+one.way.anova.renda <-aov(satisfacao.geral ~ renda.familiar, data = df_aeroportos)
+anova(one.way.anova.renda)
+```
+## 1.6. Satisfação geral com aeroporto estratificado por motivo de viagem 
+
+Estratificando a satisfação geral por motivo de viagem, nota-se que não há diferença significativa na forma de avaliar os aeroportos para aqueles que viajam a trabalho ou a lazer, o que também é confirmado a partir do teste de variãncia ANOVA o qual indica um p-valor acima de 0.05. Nota-se também que a grande maioria dos entreistados estavam realizando viagens a lazer no momento da entrevista.
+
+```{r satisfacao_motivo, out.width="100%"}
+
+plot_reviews_motivo <- df_aeroportos %>%
+  dplyr::group_by(motivo.da.viagem, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(motivo.da.viagem=unique(df_aeroportos$motivo.da.viagem), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("motivo.da.viagem", "satisfacao.geral"),
+        by.y=c("motivo.da.viagem", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  dplyr::mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  dplyr::group_by(motivo.da.viagem) %>%
+  dplyr::mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  select(-qt_reviews) %>%
+  dplyr::mutate(motivo.ordem = case_when(motivo.da.viagem == "Lazer" ~ 0,
+                                         motivo.da.viagem == "Lazer e Trabalho" ~ 1,
+                                         motivo.da.viagem == "Trabalho" ~ 2,
+                                         motivo.da.viagem == "Outros" ~ 3,
+                                         TRUE ~ 4))
+
+plot_reviews_motivo <- plot_reviews_motivo %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, y=reorder(motivo.da.viagem, motivo.ordem), fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(motivo.da.viagem, motivo.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Motivo Viagem") +
+  scale_fill_manual(name="Classes de Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+
+plot_qt_reviews_motivo <- df_aeroportos %>%
+  merge(crossing(motivo.da.viagem=unique(df_aeroportos$motivo.da.viagem), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("motivo.da.viagem", "satisfacao.geral"),
+        by.y=c("motivo.da.viagem", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  dplyr::mutate(motivo.ordem = case_when(motivo.da.viagem == "Lazer" ~ 0,
+                                         motivo.da.viagem == "Lazer e Trabalho" ~ 1,
+                                         motivo.da.viagem == "Trabalho" ~ 2,
+                                         motivo.da.viagem == "Outros" ~ 3,
+                                         TRUE ~ 4)) %>%
+  dplyr::group_by(motivo.da.viagem, motivo.ordem) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(motivo.da.viagem, motivo.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(motivo.da.viagem, motivo.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Motivo Viagem") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparison
+plot <- ggarrange(plot_reviews_motivo, 
+                  plot_qt_reviews_motivo, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por motivo da viagem", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0))
+```
+```{r}
+one.way.anova.motivo <-aov(satisfacao.geral ~ motivo.da.viagem, data = df_aeroportos)
+anova(one.way.anova.motivo)
+```
+
+## 1.7. Satisfação geral com aeroporto estratificado quantidade de viagens em 12 meses
+
+Por fim, a estratificação por quantidade de viagens em 12 meses mostra que existe uma interação entre a satisfação geral dos passageiros e a quantidade de viagens realizadas nos últimos 12 meses, de forma que quanto maior for a quantidade de viagens realizadas menor será a satisfação geral do passageiro com relação ao aeroporto. Essa afirmação também é suportada pelo teste de variância ANOVA que indica haver uma relação entre a satisfação e a quantidade de viagens dado um p-valor bastante pequeno.
+Nesse sentido, pode-se concluir que mais importante do que olhar para o motivo da vaigem (o que não impacta diferentemente na satisfação dependendo do motivo) seria olhar a frequência de viagem do passageiro.
+
+```{r satisfacao_quantidade_viagens, out.width="100%"}
+
+plot_reviews_quantidade_viagens <- df_aeroportos %>%
+  dplyr::group_by(quantidade.de.viagens.nos.ultimos.12.meses, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(quantidade.de.viagens.nos.ultimos.12.meses=unique(df_aeroportos$quantidade.de.viagens.nos.ultimos.12.meses),
+                 satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("quantidade.de.viagens.nos.ultimos.12.meses", "satisfacao.geral"),
+        by.y=c("quantidade.de.viagens.nos.ultimos.12.meses", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  dplyr::mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  dplyr::group_by(quantidade.de.viagens.nos.ultimos.12.meses) %>%
+  dplyr::mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  select(-qt_reviews) %>%
+  dplyr::mutate(quantidade.ordem = case_when(quantidade.de.viagens.nos.ultimos.12.meses == "1 (Primeira viagem)" ~ 0,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "2 a 3" ~ 1,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "4 a 5" ~ 2,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "6 a 10" ~ 3,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "Mais de 11" ~ 4,
+                                             TRUE ~ 5))
+
+plot_reviews_quantidade_viagens <- plot_reviews_quantidade_viagens %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, 
+               y=reorder(quantidade.de.viagens.nos.ultimos.12.meses, quantidade.ordem), 
+               fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(quantidade.de.viagens.nos.ultimos.12.meses, quantidade.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Quantidade Viagens em 12 meses") +
+  scale_fill_manual(name="Classes de Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+
+plot_qt_reviews_quantidade_viagens <- df_aeroportos %>%
+  merge(crossing(quantidade.de.viagens.nos.ultimos.12.meses=unique(df_aeroportos$quantidade.de.viagens.nos.ultimos.12.meses),
+                 satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("quantidade.de.viagens.nos.ultimos.12.meses", "satisfacao.geral"),
+        by.y=c("quantidade.de.viagens.nos.ultimos.12.meses", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  dplyr::mutate(quantidade.ordem = case_when(quantidade.de.viagens.nos.ultimos.12.meses == "1 (Primeira viagem)" ~ 0,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "2 a 3" ~ 1,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "4 a 5" ~ 2,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "6 a 10" ~ 3,
+                                             quantidade.de.viagens.nos.ultimos.12.meses == "Mais de 11" ~ 4,
+                                             TRUE ~ 5)) %>%
+  dplyr::group_by(quantidade.de.viagens.nos.ultimos.12.meses, quantidade.ordem) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(quantidade.de.viagens.nos.ultimos.12.meses, quantidade.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(quantidade.de.viagens.nos.ultimos.12.meses, quantidade.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Quantidade Viagens em 12 meses") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparison
+plot <- ggarrange(plot_reviews_quantidade_viagens, 
+                  plot_qt_reviews_quantidade_viagens, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por quant. viagens em 12 meses", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0))
+```
+
+```{r}
+one.way.anova.quantidade.viagens <-aov(satisfacao.geral ~ quantidade.de.viagens.nos.ultimos.12.meses, data = df_aeroportos)
+anova(one.way.anova.quantidade.viagens)
+```
+
+
+## 1.8. Definição do grupo alvo
+
+Com base no que foi exposto até então, pode-se definir um grupo de passageiros formado por aqueles que tendem a ser mais rigorosos em relação a percepção de satisfação nos aeroportos. Esse grupo é formado por pessoas que atendem os seguintes critérios:
+
+  - Nível de escolaridade: pessoas que tenham nível **Superior**, **Mestrado** ou **Doutorado**;
+  - Renda familiar: pessoas que possuam renda familiar **acima (ou igual) a 4 salários mínimo**;
+  - Quantidade de viagens em 12 meses: pessoas que tenham viajado no **mínimo 4 vezes nos últimos 12 meses**;
+  
+Analisando a forma como esses dois grupos avalia a satisfação nos aeroportos, nota-se que o grupo alvo é de fato mais rigoroso (menos satisfeito) do que os demais passageiros. Para confirmar essa conclusão, o teste chi-quadrado realizado na sequência também indica uma diferença entre os dois grupos no que tange a satisfação com relação aos aeroportos.
+  
+```{r grupo_alvo, out.width="100%"}
+grupo_alvo <- df_aeroportos %>%
+  dplyr::mutate(customer_category = ifelse(renda.familiar %in% c("Entre 4 e 10 sm", "Entre 10 e 20 sm", "Mais de 20 sm") &
+                                           escolaridade %in% c("Superior", "Mestrado", "Doutorado") &
+                                           quantidade.de.viagens.nos.ultimos.12.meses %in% c("6 a 10", "Mais de 11"), 
+                                           "Grupo Alvo", 
+                                           "Demais Passageiros")) %>%
+  dplyr::group_by(customer_category, satisfacao.geral) %>%
+  dplyr::summarize(qt_reviews = n()) %>%
+  merge(crossing(customer_category=c("Grupo Alvo", "Demais Passageiros"), satisfacao.geral=unique(df_aeroportos$satisfacao.geral)),
+        .,
+        by.x=c("customer_category", "satisfacao.geral"),
+        by.y=c("customer_category", "satisfacao.geral"),
+        all.x=T,
+        all.y=F) %>%
+  as_tibble() %>%
+  dplyr::mutate(qt_reviews = ifelse(is.na(qt_reviews), 0, qt_reviews)) %>%
+  dplyr::group_by(customer_category) %>%
+  dplyr::mutate(pct_reviews = qt_reviews/sum(qt_reviews)) %>%
+  dplyr::mutate(category.ordem = case_when(customer_category == "Grupo Alvo" ~ 0,
+                                           customer_category == "Demais Passageiros" ~ 1,
+                                           TRUE ~ 2))
+
+plot_grupo_alvo <- grupo_alvo %>%
+  ggplot() +
+  geom_col(aes(x=pct_reviews, 
+               y=reorder(customer_category, category.ordem), 
+               fill=reorder(factor(satisfacao.geral), satisfacao.geral))) +
+  geom_text(aes(x=pct_reviews, 
+                y=reorder(customer_category, category.ordem), 
+                label=ifelse(pct_reviews < 0.1, "", paste(round(100*pct_reviews), "%")), 
+                group=reorder(factor(satisfacao.geral), satisfacao.geral)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(x="Percentual de Reviews", y="Categoria Cliente") +
+  scale_fill_manual(name="Classes de Review", 
+                    values=c("#E31A1C", "#FC4E2A", "#D9D9D9", "#A6D96A", "#66BD63")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+
+
+plot_qt_grupo_alvo <- grupo_alvo %>%
+  dplyr::group_by(customer_category, category.ordem) %>%
+  dplyr::summarize(qt_reviews = sum(qt_reviews)) %>%
+  ggplot() +
+  geom_col(aes(x=qt_reviews, y=reorder(customer_category, category.ordem))) +
+  geom_text(aes(x=qt_reviews, 
+                y=reorder(customer_category, category.ordem), 
+                label=qt_reviews), 
+            hjust=1.2, 
+            size=3.5, 
+            color="white") +
+  labs(x="Quantidade de Reviews", y="Categoria Cliente") +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom")
+
+## Comparison
+plot <- ggarrange(plot_grupo_alvo, 
+                  plot_qt_grupo_alvo, 
+                  ncol=2, 
+                  nrow=1, 
+                  widths=c(1,1),
+                  legend="bottom",
+                  common.legend = T)
+
+annotate_figure(plot, top=text_grob("Satisfação geral e quantidades de respondentes por grupo de passageiros", 
+                                    color="#000000", 
+                                    size=14, 
+                                    x=unit(0.5, "lines"), 
+                                    y=unit(0, "lines"), 
+                                    just="left", 
+                                    hjust=0, 
+                                    vjust=0))
+
+```
+```{r}
+## Selecionando genero e satisfacao geral por categoria de cliente
+test02 <- df_aeroportos %>%
+  dplyr::mutate(customer_category = ifelse(renda.familiar %in% c("Entre 4 e 10 sm", "Entre 10 e 20 sm", "Mais de 20 sm") &
+                                           escolaridade %in% c("Superior", "Mestrado", "Doutorado") &
+                                           quantidade.de.viagens.nos.ultimos.12.meses %in% c("6 a 10", "Mais de 11"), 
+                                           "Grupo Alvo", 
+                                           "Demais Passageiros")) %>%
+  dplyr::group_by(customer_category, satisfacao.geral)
+
+## Criando a tabela de probabilidade
+prob_02 <- (cbind(prop.table(table(test02$customer_category, test02$satisfacao.geral), margin = 1)))
+prob_02
+
+## Realizando teste chi-sq
+print(chisq.test(table(test02$customer_category, test02$satisfacao.geral)))
+```
+Por fim, nota-se que grande parte dos passageiros que compõem o **Grupo Alvo** são pessoas que estam viajando a trabalho enquanto que no caso das pessoas que compõem o grupo dos **Demais Passageiros** são pessoas que estão viajando a alazer.
+
+```{r grupo_alvo_trabalho, out.width="100%"}
+df_aeroportos %>%
+  dplyr::mutate(customer_category = ifelse(renda.familiar %in% c("Entre 4 e 10 sm", "Entre 10 e 20 sm", "Mais de 20 sm") &
+                                           escolaridade %in% c("Superior", "Mestrado", "Doutorado") &
+                                           quantidade.de.viagens.nos.ultimos.12.meses %in% c("6 a 10", "Mais de 11"), 
+                                           "Grupo Alvo", 
+                                           "Demais Passageiros")) %>%
+  dplyr::group_by(customer_category, motivo.da.viagem) %>%
+  dplyr::summarize(qt_customers = n()) %>%
+  dplyr::group_by(customer_category) %>%
+  dplyr::mutate(pct_customers = qt_customers/sum(qt_customers)) %>%
+  dplyr::ungroup() %>%
+  dplyr::mutate(motivo.ordem = case_when(motivo.da.viagem == "Lazer" ~ 0,
+                                         motivo.da.viagem == "Lazer e Trabalho" ~ 1,
+                                         motivo.da.viagem == "Trabalho" ~ 2,
+                                         motivo.da.viagem == "Outros" ~ 3,
+                                         TRUE ~ 4)) %>%
+  ggplot() +
+  geom_col(aes(x=pct_customers, 
+               y=customer_category, 
+               fill=reorder(motivo.da.viagem, motivo.ordem))) +
+  geom_text(aes(x=pct_customers, 
+                y=customer_category, 
+                label=ifelse(pct_customers < 0.1, "", paste(round(100*pct_customers), "%")), 
+                group=reorder(motivo.da.viagem, motivo.ordem)), 
+            position = position_stack(vjust=0.5), 
+            size=3.5, 
+            color="white") +
+  labs(title = "Distribuição do motivo da viagem por grupo de passageiros", x="Percentual de Reviews", y="Categoria Cliente") +
+  scale_fill_manual(name="Motivo da viagem",
+                    breaks=c("Lazer", "Lazer e Trabalho", "Trabalho", "Outros"),
+                    values=brewer.pal(n = 4, name = "Set2")) +
+  theme_classic() +
+  theme(
+    axis.line.x = element_blank(),
+    axis.line.y = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.ticks.y = element_blank()
+    )
+```
+
+
+## 2 PROPENSÃO DE SATISFAÇÃO (LOGIT)
+
+Nosso objetivo aqui é analisar quais dos aspectos avaliados pelos passageiros mais influenciam sua satisfação geral, levando em consideração os grupos de clientes criados anteriormente. Para isso, definimos que um passageiro está satisfeito quando tem uma nota de satisfação geral maior ou igual a 4.
+
+```{r nps}
+df_logit <- df_aeroportos %>%
+  dplyr::mutate(customer_category = ifelse(renda.familiar %in% c("Entre 4 e 10 sm", "Entre 10 e 20 sm", "Mais de 20 sm") &
+                                           escolaridade %in% c("Superior", "Mestrado", "Doutorado") &
+                                           quantidade.de.viagens.nos.ultimos.12.meses %in% c("6 a 10", "Mais de 11"), 
+                                           "Grupo Alvo", 
+                                           "Demais Passageiros")) %>%
+  mutate(satisfeito = ifelse(satisfacao.geral > 4, 1, 0))
+```
+
+Para entendermos quais aspectos avaliados mais interferem na satisfação do passageiro, utilizaremos da regressão logística (Logit) e interpretaremos os coeficientes de cada variável. A fim de evitar problemas de multicolinearidade, estudaremos, a correlação entre as variáveis escolhidas.
+
+```{r correl_logit, out.width="100%" }
+# Criando a tabela de correlação
+df_logit %>% 
+  select_if(is.numeric) %>%
+  chart.Correlation()
+```
+
+Com base na matriz de correlação, percebemos que há correlações em torno de 30% entre as variáveis, porém, a variável **satisfeito** e **satisfacao.geral** são correlacionadas em 70%; fato que já era esperado porque aquela foi criada com base nesta.
+Retiramos, então, a **satisfacao.geral** e incluímos a coluna **customer_category** no df preparado para gerar os dois modelos logit
+
+```{r}
+aero_logit <- df_logit %>%
+  select(-satisfacao.geral) %>%
+  select_if(function(col) is.numeric(col) | all(col == .$customer_category))
+```
+
+Sendo assim, iremos aplicar o logit na base de clientes definido como *Grupo Alvo* e compararemos com os resultados obtidos através do logit aplciado nos clientes definidos como *Demais Passageiros*.
+
+```{r}
+publico_alvo <- aero_logit %>% 
+  filter(customer_category =="Grupo Alvo") %>%
+  select(-customer_category)
+
+publico_alvo_scl <- publico_alvo
+publico_alvo_scl[,-which(names(publico_alvo_scl) == "satisfeito")] <- scale(publico_alvo_scl[,-which(names(publico_alvo_scl) == "satisfeito")])
+
+demais_passageiros <- aero_logit %>% 
+  filter(customer_category =="Demais Passageiros") %>%
+  select(-customer_category)
+
+demais_scl <- demais_passageiros
+demais_scl[,-which(names(demais_scl) == "satisfeito")] <- scale(demais_scl[,-which(names(demais_scl) == "satisfeito")])
+```
+
+Com a segmentaçao feita, aplicamos a regressão logística para os dois diferentes grupos de passageiros:
+
+Grupo Alvo:
+
+```{r}
+logit_alvo <- glm(satisfeito ~. ,data = publico_alvo_scl, family = "binomial"(link="logit"))
+logit_alvo %>% summary()
+```
+
+Demais Passageiros:
+
+```{r}
+logit_demais <- glm(satisfeito ~. ,data = demais_scl, family = "binomial"(link="logit"))
+logit_demais %>% summary()
+```
+
+Analisando os aspectos avaliados com coeficientes com relevância estatística, percebemos que, para o **Grupo Alvo**, a avaliação para **a limpeza geral do aeroporto**,  **disponibilidade de tomadas**, **localização e deslocamento** e **facilidade de desembarque no meio fio** são importantes, em ordem de importância, para que o passageiro fique satisfeito. Por outro lado, para os **Demais Passageiros** os apsectos mais importantes, em ordem de importância, são a **disponibilidade de tomadas**, o **conforto na sala de embarque**, a **internet disponibilizada pelo aeroporto** e **estabelecimentos de alimentação**. É interessante notar que a **disponibilidade de tomadas** é algo unânime entre os dois grupos e possuem as maiores importância para ambos.
+
+As variáveis de grande importância para o grupo alvo (deslocamento, localização do aeroporto e disponibilidade de tomadas) parece estar bastante associado a hipótese que as pessoas que compõe o Grupo Alvo são, em maioria, pessoas que viajam bastante a trabalho, com maior renda e maior nível de escolaridade. Este grupo valoriza a facilidade de acesso e velocidade de embarque mais do que os demais passageiros.
+
+A influência de aspectos voltados para passageiros com pressa em suas viagens também pode ser verificada ao observarmos o sinal do coeficiente da variável **localização e deslocamento** para o Grupo Alvo que tende a penalizar mais a satisfação quanto pior for a localização do aeroporto e o deslocamento até o mesmo.
+
+
+
+# 3 ANÁLISE DE COMPONENTE PRINCIPAL
+
+Conforme visto até aqui, há uma série de colunas que trazem características da pessoa entrevista. Ademais, há um outro conjunto de colunas, em formato double, que traz a nota que essas pessoas atribuíram para cada uma das características do aeroporto. Nosso objetivo, agora, é enetender como cada característica dos aeroportos avaliadas se relacionam entre os aeroportos considerando os grupos: **Grupo Alvo** e **Demais Passageiros**.
+
+
+```{r selecionando_doubles}
+# Selecionando apenas as colunas numéricas e aeroporto
+df_pca <- df_aeroportos %>% 
+  dplyr::mutate(customer_category = ifelse(renda.familiar %in% c("Entre 4 e 10 sm", "Entre 10 e 20 sm", "Mais de 20 sm") &
+                                           escolaridade %in% c("Superior", "Mestrado", "Doutorado") &
+                                           quantidade.de.viagens.nos.ultimos.12.meses %in% c("6 a 10", "Mais de 11"), 
+                                           "Grupo Alvo", 
+                                           "Demais Passageiros")) %>%
+  select_if(function(col) is.double(col) | all(col == .$aeroporto) | all(col == .$customer_category))
+```
+
+Em seguida agrupamos as notas concedidas pelos passageiros por aeroporto. Esse agrupamento é feito calculado a média das percepções para cada aeroporto
+
+```{r}
+# Tirando a média das colunas e agrupando por aeroporto
+df_pca_geral <- df_pca %>% 
+  group_by(aeroporto) %>% 
+  dplyr::summarize(`localização deslocamento` = sum((localizacao.e.deslocamento)/n(), na.rm=TRUE),
+                   `Conforto sala embarque` = sum((conforto.da.sala.de.embarque)/n(), na.rm=TRUE),
+                   `tomadas` = sum((disponibilidade.de.tomadas)/n(), na.rm=TRUE),
+                   `Limpeza` = sum((limpeza.geral.do.aeroporto)/n(), na.rm=TRUE),
+                   `satisfacao` = sum((satisfacao.geral)/n(), na.rm=TRUE),
+                   `Acesso aerop.` = sum((opcoes.de.transporte.ate.o.aeroporto)/n(), na.rm=TRUE),
+                   `Inspe. seguranca` = sum((processo.de.inspecao.de.seguranca)/n(), na.rm=TRUE),
+                   `Sanitario` = sum((sanitarios)/n(), na.rm=TRUE),
+                   `Desembarque` = sum((facilidade.de.desembarque.no.meio.fio)/n(), na.rm=TRUE),
+                   `Aquis. passagem` = sum((processo.de.aquisicao.da.passagem)/n(), na.rm=TRUE),
+                   `Estab. Alimentacao` = sum((estabelecimentos.de.alimentacao)/n(), na.rm=TRUE),
+                   `Internet aerop.` = sum((internet.disponibilizada.pelo.aeroporto)/n(), na.rm=TRUE)) %>%
+  dplyr::ungroup() %>%
+  tibble::column_to_rownames('aeroporto')
+
+# Tirando a média das colunas e agrupando por aeroporto considerando apenas o grupo alvo
+df_pca_grupo_alvo <- df_pca %>%
+  filter(customer_category == "Grupo Alvo") %>%
+  group_by(aeroporto) %>% 
+  dplyr::summarize(`localização deslocamento` = sum((localizacao.e.deslocamento)/n(), na.rm=TRUE),
+                   `Conforto sala embarque` = sum((conforto.da.sala.de.embarque)/n(), na.rm=TRUE),
+                   `tomadas` = sum((disponibilidade.de.tomadas)/n(), na.rm=TRUE),
+                   `Limpeza` = sum((limpeza.geral.do.aeroporto)/n(), na.rm=TRUE),
+                   `satisfacao` = sum((satisfacao.geral)/n(), na.rm=TRUE),
+                   `Acesso aerop.` = sum((opcoes.de.transporte.ate.o.aeroporto)/n(), na.rm=TRUE),
+                   `Inspe. seguranca` = sum((processo.de.inspecao.de.seguranca)/n(), na.rm=TRUE),
+                   `Sanitario` = sum((sanitarios)/n(), na.rm=TRUE),
+                   `Desembarque` = sum((facilidade.de.desembarque.no.meio.fio)/n(), na.rm=TRUE),
+                   `Aquis. passagem` = sum((processo.de.aquisicao.da.passagem)/n(), na.rm=TRUE),
+                   `Estab. Alimentacao` = sum((estabelecimentos.de.alimentacao)/n(), na.rm=TRUE),
+                   `Internet aerop.` = sum((internet.disponibilizada.pelo.aeroporto)/n(), na.rm=TRUE)) %>%
+  dplyr::ungroup() %>%
+  tibble::column_to_rownames('aeroporto')
+
+# Tirando a média das colunas e agrupando por aeroporto considerando apenas os demais passageiros
+df_pca_demais <- df_pca %>%
+  filter(customer_category == "Demais Passageiros") %>%
+  group_by(aeroporto) %>% 
+  dplyr::summarize(`localização deslocamento` = sum((localizacao.e.deslocamento)/n(), na.rm=TRUE),
+                   `Conforto sala embarque` = sum((conforto.da.sala.de.embarque)/n(), na.rm=TRUE),
+                   `tomadas` = sum((disponibilidade.de.tomadas)/n(), na.rm=TRUE),
+                   `Limpeza` = sum((limpeza.geral.do.aeroporto)/n(), na.rm=TRUE),
+                   `satisfacao` = sum((satisfacao.geral)/n(), na.rm=TRUE),
+                   `Acesso aerop.` = sum((opcoes.de.transporte.ate.o.aeroporto)/n(), na.rm=TRUE),
+                   `Inspe. seguranca` = sum((processo.de.inspecao.de.seguranca)/n(), na.rm=TRUE),
+                   `Sanitario` = sum((sanitarios)/n(), na.rm=TRUE),
+                   `Desembarque` = sum((facilidade.de.desembarque.no.meio.fio)/n(), na.rm=TRUE),
+                   `Aquis. passagem` = sum((processo.de.aquisicao.da.passagem)/n(), na.rm=TRUE),
+                   `Estab. Alimentacao` = sum((estabelecimentos.de.alimentacao)/n(), na.rm=TRUE),
+                   `Internet aerop.` = sum((internet.disponibilizada.pelo.aeroporto)/n(), na.rm=TRUE)) %>%
+  dplyr::ungroup() %>%
+  tibble::column_to_rownames('aeroporto')
+```
+
+Em seguida, fazemos a análise de componentes principais para ver em quantas dimensões e como essas características dos diferentes aeroportos se organizam
+
+```{r proximidades_geral, out.width="100%"}
+#Fazendo a análise de componentes principais
+pc.cr_geral <- df_pca_geral %>% prcomp(cor = TRUE)
+
+fviz_pca_biplot(pc.cr_geral, repel = TRUE)+
+  labs(title = "Proximidade de atributos entre os aeroportos - Geral",
+       caption='Fonte:Análise produzida pelas autoras') +
+  theme_few()+
+  theme(panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        plot.caption = element_text(hjust=0,
+                                    vjust=-0.5,size=8))
+```
+
+Primeiramente, percebemos que as características que mais impactam na análise dos passageiros são a **disponibilidade de tomadas** (vetor tomadas), as opções de **transporte até o aeroporto** (vetor acesso aero), o **conforto da sala de embarque** (vetor conforto embarque), e os **sanitarios** (vetor sanitario). 
+A dimensão 1, que corresponde a dimensão no sentido horizontal do gráfico acima, corresponde em torno de 50% dos fatores que impactam na avaliação dos passageiros. Essas características, tais como tomadas, internet, limpeza, sanitário e conforto da sala de embarque representam a dimensão da qualidade das instalações do aeroporto. 
+Há também uma segunda dimensão, representada sobretudo pelos vetores de acesso ao aeroporto e de processo de aquisição de passagem (vetor aquis. passagem). Esse vetor tem um impacto menor, representando aprox. 13% das características que impactam na avaliação dos passageiros. Entretanto, quando consideramos que esse eixo é formado apenas por 2 vetores, estes adquirem uma maior importância. Como o acesso até o aeroporto e o processo de aquisição de passagem não dizem respeito diretamente a aspectos da infraestrutura do aeroporto, mas estão relacionados à efetividade do serviço prestado - seja pela proximidade do aeroporto, seja pelo sucesso em obter a passagem.
+Nota-se que, nos aspectos analásidas, o aeroporto SBFL (Florianópolis), SBVT (Vitória) e SBGO (Goiânia) são os melhores avaliados, enquanto que os aeroportos SBGR (Guarulhos), SBRJ (Rio de Janeiro) e SBRF (Recife) são os piores avaliados. No caso do aeroporto SBRF nota-se que esse se encontra no sentido oposto do vetor de **conforto na sala de embarque** e no caso do aeroporto **SBRJ** eeste encontra-se no sentido oposto ao vector de disponibilidade de tomadas, o que ajuda a entender quais são as principais necessidades de cada um desses aeroportos. Já o aeroporto de SBGR possui uma combinação de problemas sendo o pior avaliado entre os aeroportos estudados.
+
+
+## 3.1 PCA para grupo alvo
+
+Analisando o gráfico da proximidade de atributos para o grupo alvo, nota-se que aspectos como **facilidade de desembarque**, **acesso ao aeroporto** e **localização e deslocamento** ganham maior importância, juntamente com o vetor de disponibilidade de tomadas e sanitários. A importância desses atributos (com exceção dos atibuto "sanitários") já havia sido apontada antes com a análise Logit feita anteriormente, o que acaba reforçando a importância desse vetores. É possível notar também, que para esse público, os aeroportos SBEG (Manaus) e SBCF (Confins) possui uma avaliação pior se comparado com o gráfico anterior.
+
+```{r proximidades_grupo_alvo, out.width="100%"}
+#Fazendo a análise de componentes principais
+pc.cr_grupo_alvo <- df_pca_grupo_alvo %>% prcomp(cor = TRUE)
+
+fviz_pca_biplot(pc.cr_grupo_alvo, repel = TRUE)+
+  labs(title = "Proximidade de atributos entre os aeroportos - Público Alvo",
+       caption='Fonte:Análise produzida pelas autoras') +
+  theme_few()+
+  theme(panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        plot.caption = element_text(hjust=0,
+                                    vjust=-0.5,size=8))
+```
+
+## 3.2 PCA para demais passageiros
+
+Analisando os demais passageiros, verificamos que os aspectos relaciondos a disponibiidade de tomdas, conforto na sala de embarque e sanitários se mantem como mais importantes, sendo os aeroportos SBGR, SBRF e SBRJ os priores avaliados. A novidade é que para esse público, o aeroporto SBSG (Natal) também possui uma avaliação muito ruim o que não ficava tão evidente quando analisadas todos as entrevistas. 
+
+```{r pca_demais, out.width="100%"}
+#Fazendo a análise de componentes principais
+pc.cr_demais <- df_pca_demais %>% prcomp(cor = TRUE)
+
+fviz_pca_biplot(pc.cr_demais, repel = TRUE)+
+  labs(title = "Proximidade de atributos entre os aeroportos - Demais Passageiros",
+       caption='Fonte:Análise produzida pelas autoras') +
+  theme_few()+
+  theme(panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        plot.caption = element_text(hjust=0,
+                                    vjust=-0.5,size=8))
+```
+
+Em síntese, as análises nos permitem pensar em uma solução a partir de dois eixos de atuação. O primeiro, voltado à infraestrutura, estaria relacionado a oferecer uma experiência dentro do aeroporto que correspondesse às necessidades do público-alvo – uma sala com acesso a tomadas, sanitário, boa limpeza, etc. Já o segundo eixo diz respeito à efetividade do serviço prestado – facilidade e rapidez na compra da passagem, efetividade no serviço de inspeção e segurança, boa alimentação e conforto. Neste segundo caso, poderíamos pensar em soluções a distância que tornem os serviços mais rápidos ou antecipam gargalos do próprio aeroporto. Essa facilidade poderia ser ainda maior para um passageiro recorrente, que já tem seus dados cadastrados
+
+
+# 4 CLUSTERIZAÇÃO DOS AEROPORTOS
+
+## 4.2 padronizar as variaveis de criterio de segmentacao
+
+```{r padronizacao_variaveis}
+df0 = df_aeroportos %>% 
+  group_by(aeroporto) %>% 
+  summarise(across(c(facilidade.de.desembarque.no.meio.fio,
+                     opcoes.de.transporte.ate.o.aeroporto,
+                     processo.de.aquisicao.da.passagem,
+                     processo.de.inspecao.de.seguranca,
+                     estabelecimentos.de.alimentacao,
+                     localizacao.e.deslocamento,
+                     conforto.da.sala.de.embarque,  
+                     disponibilidade.de.tomadas,
+                     internet.disponibilizada.pelo.aeroporto,
+                     sanitarios,
+                     limpeza.geral.do.aeroporto,
+                     satisfacao.geral), mean))
+
+df <- df0 %>% 
+  select(facilidade.de.desembarque.no.meio.fio,
+         opcoes.de.transporte.ate.o.aeroporto,
+         processo.de.aquisicao.da.passagem,
+         processo.de.inspecao.de.seguranca,
+         estabelecimentos.de.alimentacao,
+         localizacao.e.deslocamento,
+         conforto.da.sala.de.embarque,  
+         disponibilidade.de.tomadas,
+         internet.disponibilizada.pelo.aeroporto,
+         sanitarios,
+         limpeza.geral.do.aeroporto,
+         satisfacao.geral) %>%
+  mutate(across(everything(), scale,  .names = "{col}_z"))
+```
+
+
+## 4.3 Correlação
+
+Avaliar se as variaveis de criterio de segmentacao são correlacionadas.
+
+```{r tabela_correlacao, out.width="100%"}
+df %>% 
+  select(ends_with("z")) %>% 
+  chart.Correlation()
+
+# matriz de correlacao
+correl = df %>% select(ends_with("z")) %>% as.matrix() %>% rcorr()
+tb_correl = correl$r
+```
+
+
+## 4.4 Calcular distancias euclidianas e wardslinkage 
+
+
+```{r distancia_euclidiana}
+euclid <- df %>% 
+  select(ends_with("z")) %>% dist("euclidean")# distancia euclidiana
+
+ward <- euclid %>% hclust(method="ward.D2") # procedimento ao quadrado - ajuda a suavizar
+```
+
+
+## 4.5 Avialiacao do dendrograma: 3 clusters
+
+Fizemos testes com 3, 4, 5 e 6 clusters, depois de testar todas as possibilidades percebemos que a clusterização com 3 grupos melhor funcionou para a nossa base de dados.
+
+```{r cut_4_dendograma, out.width="100%"}
+wardg1 <- ggdendrogram(ward,leaf_labels = FALSE) + theme(axis.text.x = element_blank())
+
+hdata = dendro_data_k(ward, 3)
+plot_ggdendro(hdata, direction   = "lr", expand.y    = 0.2)
+
+ward3 <- cutree(ward, k=3)
+```
+
+
+## 4.7 Visualizacao dos clusters
+
+```{r visualizando clusters, out.width="100%"}
+
+df[ , "Cluster3_Ward"] <- ward3
+
+factoextra::fviz_cluster(list(data = df, cluster = ward3))
+```
+
+## 4.8 Calculo do centroid dos clusters 
+
+```{r calculando_centroids}
+cluster_ward3 <- df %>% 
+  group_by(Cluster3_Ward) %>% 
+  summarise(across(ends_with('z'), mean))
+```
+
+## 4.9 K-means
+
+```{r kmeans}
+k1 <- kmeans(df %>% select(ends_with("z")), centers = 3, nstart = 1000)
+df[ , "Cluster3_Kmeans"] <- k1$cluster
+```
+
+## 4.10 Visualização dos clusters
+
+```{r visualizando_kmeans, out.width="100%"}
+fviz_cluster(k1, data = df %>% select(ends_with("z")),
+             geom = "point",
+             ellipse.type = "convex", 
+             ggtheme = theme_bw()
+             )
+```
+
+
+## 4.11 Adicionando a informação de aeroportos
+
+```{r adicionando_info_aeroportos}
+df[ , "Aeroporto"] <- df0$aeroporto
+```
+
+## 4.12 Avaliando o resultado
+
+Podemos perceber que ambos os modelos (ward e k-means) clusterizam os mesmos aeroportos juntos, enfatizando as similaridades entre os aeroportos dos grupos. Podemos observar que os aeroportos que identificávamos como os piores estão agrupados (SBGR, SBRF e SBRJ), os melhores ficaram juntos em um mesmo cluster (SBGO, SBFL, SBVT, SBPA, SBCT e SBMO) e os intermediários no cluster restante.
+
+```{r tabela_final}
+df %>% 
+  select(Aeroporto, Cluster3_Ward, Cluster3_Kmeans) %>% 
+  arrange(Cluster3_Ward)
+```
+
+
+# 5 CONCLUSÕES E SUGESTÕES DE MEDIDAS ACIONÁVEIS
+
+Em suma, o presente trabalho identificou um grupo alvo que tende a ser mais exigente com relação a satisfação dos aeroportos. Conforme apontado, esse grupo é formado por pessoas com nível superior, mestrado ou doutorado, com renda familiar acima de 4 salários mínimos e que utiliza os aeroportos pelos menos 4 vezes nos últimos 12 meses. A hipótese levantada é que esse grupo seria formado, majoritariamente, por pessoas que costumam a vaijar com frequência a trabalho e que normalmente dependendem de agilidade e facilidade no acesso ao aeroporto, embarque e desembarque. Tal hipótese foi confirmada ao longo do trabalho ao identificar que a maioria das pessoas que constituem o grupo alvo de fato utilizam o aeroporto para realizar viagens a trabalho.
+A análise de proximidade de atributos, assim como a de "propensão à satisfação", indicaram que as principais dores desse grupo de fato estão relacionadas a rotina de quem utiliza os aeroportos para realizar viagens a trabalho: **falta de limpeza** do aeroporto,  **falta de tomadas**, **localização e deslocamento** do / para o aeroporto ruins e **facilidade de desembarque no meio fio**.
+Com isso a sugestões acionável que poderíamos propor para os aeroportos para melhorar a satisfação dos passageiros, pensando primeiramente nas dores apontadas pelo grupo alvo, seria:
+
+  - Destinar um espaço do aeroporto com uma infra-estrutura customizada de forma a trazer uma experiência de "escritório" para passageiros que costumam viajar a trabalho com frequência. Esse espaço poderia ser alugado e reformado por uma empresa terceirizada e especializada na construção de co-workings. Além disso, esse local poderia ter um serviço dedicado para realização de check-ins e inspeção de segurança para as pessoas com alta frequência de uso do aeroporto, de forma a facilitar esse processos para esse público, o qual teria algum tipo de "convênio" / "fidelização".
+  
+Por fim, a clusteriação dos aeroportos juntamente com a análise de proximidade de atributos e a exploração de dados realizada no início desse trabalho nos ajuda na identificação de aeroportos que seriam prioritários na implementação da medida acionável mencionada acima. Esses aeroportos seriam o **SBGR**, o **SBRF** e o **SBRJ**, os quais são apontados como aqueles que possuem a pior avaliação em todos os aspectos de interesse.
+
+
+
+[1] https://dados.gov.br/dataset/pesquisa-de-satisfacao-do-passageiro-em-aeroportos

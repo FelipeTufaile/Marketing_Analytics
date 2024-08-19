@@ -1,0 +1,109 @@
+---
+title: "Logit Aeroportos"
+author: "Vinícius de Camargo"
+date: "28/11/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+Importando as bibliotecas
+```{r, warning=FALSE}
+library(tidyverse)
+library(Hmisc)
+library(dplyr)
+library(caret)
+library(magrittr)
+
+```
+
+Nosso objetivo aqui é analisar quais dos aspectos avaliados pelos passageiros mais influenciam sua satisfação geral.
+Para isso, definimos que um passageiro está satisfeito quando tem uma nota de satisfação geral maior ou igual a 4
+
+```{r}
+aero_clean_v2 <- read.csv("20221126_aeroportos21_22_clean_v2.csv")
+aero_clean_v2 <- aero_clean_v2 %>% mutate(satisfeito = ifelse(satisfacao.geral >= "4", 1, 0))
+aero_clean_v2$satisfeito <- aero_clean_v2$satisfeito
+
+```
+
+
+Como demonstado nas estatísticas descritivas, iremos segmentar os passageiros em um grupo alvo - contendo aqueles com renda maior que 4 salários mínimos e com nível de escolaridade superior, abarcando mestres e doutores - e em um grupo dos demais passageiros
+
+
+```{r}
+
+aero_clean_v2 <- aero_clean_v2 %>%
+  mutate(customer_category = ifelse(renda.familiar %in% c("Entre 4 e 10 sm", "Entre 10 e 20 sm", "Mais de 20 sm") &
+                                      escolaridade %in% c("Superior", "Mestrado", "Doutorado"), "Grupo Alvo", "Demais Passageiros"))
+
+```
+
+Para entendermos quais aspectos avaliados mais interferem na satisfação do passageiro, utilizaremos da regressão logística (Logit) e interpretaremos os coeficientes de cada variável.
+A fim de evitar problemas de multicolinearidade, estudaremos, a correlação entre as variáveis escolhidas.
+
+```{r}
+
+aero_correl <- aero_clean_v2 %>% select_if(is.numeric) 
+aero_correl$satisfeito <- aero_correl$satisfeito %>% as.factor()  
+correl_matrix <- aero_correl %>% as.matrix() %>% rcorr()
+correl_matrix$r %>% view()
+
+```
+
+Com base na matriz de correlação, percebemos que há correlações em torno de 30% entre as variáveis, porém, a variável **satisfeito** e **satisfacao.geral** são correlacionadas em 70%; fato que já era esperado porque aquela foi criada com base nesta.
+Retiramos, então, a **satisfacao.geral** e incluímos a coluna **customer_category** no df preparado para gerar os dois modelos logit
+
+```{r}
+aero_logit <- aero_correl %>% select(!satisfacao.geral)
+aero_logit <- aero_logit %>% mutate(customer_category = aero_clean_v2$customer_category)
+
+```
+
+Sendo assim, iremos aplicar o logit na base de clientes definido como *Grupo Alvo* e compararemos com os resultados obtidos através do logit aplciado nos clientes definidos como *Demais Passageiros*.
+
+```{r}
+
+publico_alvo <- aero_logit %>% filter(customer_category =="Grupo Alvo") 
+publico_alvo <- publico_alvo %>% select(!customer_category)
+demais_passageiros <- aero_logit %>% filter(customer_category =="Demais Passageiros") 
+demais_passageiros <- demais_passageiros %>% select(!customer_category)
+
+```
+
+
+Com a segmentaçao feita, aplicamos a regressão logística para os dois diferentes grupos de passageiros:
+
+Grupo Alvo:
+
+```{r}
+logit_alvo <- glm(satisfeito ~. ,data = publico_alvo, family = "binomial"(link="logit"))
+logit_alvo %>% summary()
+
+```
+
+Demais Passageiros:
+
+```{r}
+logit_demais <- glm(satisfeito ~. ,data = demais_passageiros, family = "binomial"(link="logit"))
+logit_demais %>% summary()
+
+```
+
+O primeiro ponto que podemos notar ao analisar os parâmetros dos dois modelos, é que os coeficientes com valores negativos têm p-valores maiores que 0.05, indicando que não podemos refutar a hipótese nula, com 95% de confiança, de que assumem valores nulos. Em outras palavras, tais coeficientes podem não ter nenhuma (ou pelo menos muito baixa) influência na satisfação do passageiro.
+
+Ainda analisando os aspectos avaliados com coeficientes sem relevância estatística, percebemos que, para o Grupo Alvo, a avaliação para o desembarque no meio fio e para o processo de inspecao de seguranca são importantes para que o passageiro sai satisfeito; enquanto, para os demais passageiros, não há a mesma importância.
+
+Tal fato pode ser associado a quantidade e tipo de viagens efetuadas pelo Grupo Alvo: trata-se de um grupo de maior renda e com mais viagens feitas por ano, com destaque para viagens a trabalho. Este grupo valoriza a facilidade de acesso e velocidade de embarque mais do que os demais passageiros.
+
+A influência de aspectos voltados para passageiros com pressa em suas viagens também pode ser verificada ao observarmos um coeficiente significativamente maior para a variável **estabelecimentos.de.alimentacao** para o Grupo Alvo em relação aos demais passageiros: é mais provável que para os frequentadores mais assíduos de aeroportos e com mais viagens de trabalho, haja mais refeições nos aeroportos do que para aqueles que estão somente com viagens a lazer e/ou não frequentam muitos aeroportos.
+
+O processo de aquisição de passagem influencia de maneira muito parecida a satisfação de ambos os grupos, mas, após a compra das passagens, verificamos que os demais passageiros valorizam muito mais o conforto da sala de embarque e a disponibilidade de tomadas do que o Grupo Alvo, remetendo ao fato que os demais passageiros esperam passar um tempo mais longo para embarcar no avião, enquanto o Grupo Alvo espera que haja um embarque rápido, não precisando usufruir da sala de embarque e das tomadas.
+
+
+
+
